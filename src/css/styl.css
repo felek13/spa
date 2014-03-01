@@ -5,6 +5,13 @@ body {
 	background: url("../img/gl_tlo.png");
 	background-repeat: repeat-x repeat-y;
 }
+footer{
+	height: 50px;
+	padding-top: 15px;
+	margin-top: 15px;
+	background: url("../img/tlo.png");
+	background-repeat: repeat-x repeat-y;
+}
 #banner { 
 	padding: 20% 0;
 	background: url("../img/slajd1.png") no-repeat center center;
