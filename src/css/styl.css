@@ -1,0 +1,54 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+#banner { 
+	padding: 20% 0;
+	background: url("../img/slajd1.png") no-repeat center center;
+	background-size: cover;
+}
+img#ikona{
+	height: 13px;
+	margin-bottom: 5px;
+}
+.nav > li > a { 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#ikona_menu{
+	text-align: center;
+	padding-top: 5px;
+	margin-right: 3px;
+}
+#logo{
+	height: 70px;
+	text-align: center;
+}
+#logo_spa{
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.navbar-inverse{
+	background: url("../img/tlo.png");
+	background-repeat: repeat-x repeat-y;
+}
+.navbar-brand{
+	padding-top: 5px;
+}
+.navbar-header{
+	height: 70px;
+}
+b{
+	color: white;
+}
+b:hover,b:focus{
+	color: black;
+}
+#mzs{
+	margin-bottom: 0;
+}
+#facebook{
+	float: right;
+}
+#face{padding-right: 0;}
