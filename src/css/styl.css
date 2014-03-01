@@ -52,13 +52,23 @@ padding-right: 0;
 background-color: white;
 }
 .facebook{ float: right; }
-.facebook#fcb{padding-left: 150px;}
+.facebook#okrag1{
+	background: url("../img/okrag.png") no-repeat center center;
+	background-size: contain;
+	width: 110px;
+	height: 110px;
+margin-left: 18%;
+float: left;
+text-align: center;
+vertical-align: middle;
+}
 .facebook#okrag{
 	background: url("../img/okrag.png") no-repeat center center;
 	background-size: contain;
 	width: 110px;
 	height: 110px;
 margin-left: 3%;
+float: left;
 text-align: center;
 vertical-align: middle;
 }
