@@ -25,6 +25,9 @@ img#ikona{
 	height: 13px;
 	margin-bottom: 5px;
 }
+img.fot{
+	float: right;
+}
 img.eko{
 float: right;
 margin: 10%;
