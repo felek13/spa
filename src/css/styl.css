@@ -18,10 +18,16 @@ footer{
 	background-size: cover;
 }
 .jumbotron{margin-bottom: 0px;}
-
+.gray_row{
+background-color: white;
+}
 img#ikona{
 	height: 13px;
 	margin-bottom: 5px;
+}
+img.eko{
+float: right;
+margin: 10%;
 }
 .nav > li > a { 
 	padding-left: 15%;
