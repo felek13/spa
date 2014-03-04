@@ -31,8 +31,6 @@ img#ikona{ margin-bottom: 5px; }
 
 img.fot{ float: right; }
 
-b.act{color: black;}
-
 img.eko{
 float: right;
 margin: 10%;
@@ -40,8 +38,17 @@ margin: 10%;
 .nav > li { vertical-align: middle; }
 .nav > li > a { 
 	white-space: nowrap;
+	color: white;
+	font-weight: bold;
 	padding: 0;
 }
+.nav > li > a:hover,a:focus{ 
+color: black;
+background-color: transparent;
+}
+
+b{color: white; }
+
 .navbar-inverse{
 	background: url("../img/tlo.png");
 	background-repeat: repeat-x repeat-y;
@@ -50,14 +57,24 @@ margin: 10%;
 	padding-top: 5px;
 	padding-left: 0%;
 }
-img#logo{ 
+.navbar-header{vertical-align: middle;}
+
+.navbar-toggle{ margin: 0; }
+.navbar-toggle#logo_tog{
+border: none;
+padding: 0;
+margin-right: 30%;
+}
+.navbar-toggle#but_tog{
+margin-top: 20px;
+margin-right: 20px;
+}
+img.logo{ 
 	padding-top: 5px;
 	height: 70px;
 }
 .navbar-header{ height: 70px; }
 
-b{ color: white; }
-b:hover,b:focus{ color: black; }
 
 #mzs{ margin-bottom: 0; }
 
