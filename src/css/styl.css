@@ -17,31 +17,30 @@ footer{
 	background: url("../img/slajd1.png") no-repeat center center;
 	background-size: cover;
 }
-.jumbotron{margin-bottom: 0px;}
-.gray_row{
-background-color: white;
-}
-img#ikona{
-	height: 13px;
-	margin-bottom: 5px;
-}
-img.fot{
+#fcb{
+	background: url("../img/fcb.png") no-repeat center center;
+	background-size: contain;
+	padding: 5% 10%;
 	float: right;
 }
-.act{color: black;}
+.jumbotron{margin-bottom: 0px;}
+
+.gray_row{background-color: white; }
+
+img#ikona{ margin-bottom: 5px; }
+
+img.fot{ float: right; }
+
+b.act{color: black;}
+
 img.eko{
 float: right;
 margin: 10%;
 }
+.nav > li { vertical-align: middle; }
 .nav > li > a { 
-	padding-left: 15%;
-	padding-right: 15%;
-}
-.nav{width: 83%;}
-
-#ikona_menu{
-	text-align: center;
-	padding-top: 5px;
+	white-space: nowrap;
+	padding: 0;
 }
 .navbar-inverse{
 	background: url("../img/tlo.png");
@@ -51,9 +50,9 @@ margin: 10%;
 	padding-top: 5px;
 	padding-left: 0%;
 }
-.navbar-brand img#logo{
+img#logo{ 
+	padding-top: 5px;
 	height: 70px;
-	text-align: center;
 }
 .navbar-header{ height: 70px; }
 
