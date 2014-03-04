@@ -23,82 +23,67 @@
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
+
 			<div class="navbar-header">
-				<button type="button" id="but_tog" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-toggle" id="logo_tog" href="index.html">
+				<a  id="logo_tog" href="index.html">
 					<img  class="logo" src="img/logo_m.png" alt="logo" > 
 				</a>
 			</div> <!--navbar-header-->
+
 			<div class="navbar-collapse collapse">
 				<ul class="nav nav-justified">
-					<li>
-						<a  href="index.html">
-							<img class="logo" src="img/logo_m.png" alt="logo" > 
-						</a>
-					</li>
-					<li>  
-						<a  href="index.html">
+					<li><a class="act" href="index.html">
 							<img  id="ikona"  src="img/gl_home_a.png" alt="glowna strona">
-							</br>HOME
-						</a>
-					</li>
-					<li>
-						<a  href="aktualności.html">
+							</br>HOME</a></li>
+					<li><a href="aktualności.html">
 							<img  id="ikona"  src="img/gl_akt.png" alt="aktualności">
-							</br>AKTUALNOŚCI
-						</a>
-					</li>
-					<li>
-						<a  href="onas.html">
+							</br>AKTUALNOŚCI</a></li>
+					<li><a href="onas.html">
 							<img id="ikona" src="img/gl_onas.png" alt="O nas">
-							</br>O NAS
-						</a>
-					</li>
-					<li>
-					<a  href="oferta.html">
+							</br>O NAS</a></li>
+					<li class="dropdown">
+						<a href="#" id="oferta" class="dropdown-toggle" data-toggle="dropdown">
 							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
-							</br>OFERTA 
-						</a>
-					</li>
-					<li>
-						<a  href="galeria.html">
+							</br>OFERTA</br><span  class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
+							<li class="divider"></li>
+							<li><a href="oczy.html">Oczy</a></li>
+							<li class="divider"></li>
+							<li><a href="twarz.html">Twarz</a></li>
+							<li class="divider"></li>
+							<li><a href="ciało.html">Ciało</a></li>
+						</ul></li>
+					<li><a href="galeria.html">
 							<img id="ikona" src="img/gl_gal.png" alt="Galeria">
-							</br> GALERIA
-						</a>
-					</li>
-					<li>
-						<a  href="newsletter.html">
+							</br>GALERIA</a></li>
+					<li><a  href="newsletter.html">
 							<img id="ikona" src="img/gl_news.png" alt="Newsletter">
-							</br> NEWSLETTER
-						</a>
-					</li>
-					<li>
-						<a  href="kontakt.html">
+							</br>NEWSLETTER</a></li>
+					<li><a  href="kontakt.html">
 							<img id="ikona" src="img/gl_akt.png" alt="Kontakt">
-							</br> KONTAKT
-						</a>
-					</li>
+							</br> KONTAKT</a></li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div><!--container-->
 	</div><!--role navigation-->
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron" id="banner"> 
-		<a  id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	
-		</a>
+	<div class="jumbotron"> 
+		<a id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	</a>
 	</div><!--jumbotron-->
 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
 				<h4 class="text-right">ekologiczne i naturalne zabiegi pielęgnacyjne</h4> <hr> 
-<img class="fot" class="img-responsive" src="img/twarz.png" alt="">
-<img class="fot" class="img-responsive" src="img/cialo.png" alt="">
-<img class="fot" class="img-responsive" src="img/oczy.png" alt="">
-</div>
+				<img class="fot" class="img-responsive" src="img/twarz.png" alt="">
+				<img class="fot" class="img-responsive" src="img/cialo.png" alt="">
+				<img class="fot" class="img-responsive" src="img/oczy.png" alt="">
+			</div>
 			<div class="col-md-4">
 				<img id="contencik" src="img/konsultacje.png" alt="">
 				<a href=""><img id="contencik" class="img-responsive" src="img/cennik.png" alt=""></a>
@@ -106,12 +91,12 @@
 			</div>
 		</div><!--row-->
 	</div> <!-- /container -->
+
 	<footer class="container-fluid">
 		<p class="text-center">
 			home | aktualności | o nas | oferta | galeria | newsletter | program referencyjny | program lojalnościowy | promocje | last minute | kontakt
 		</p>
-		</footer>
-
+	</footer>
 	<!-- Bootstrap core JavaScript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->

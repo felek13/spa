@@ -1,118 +1,85 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+footer,.navbar-inverse, ul.dropdown-menu{
+	background: url("../img/tlo.png");
+	background-repeat: repeat-x repeat-y;}
 body {
   padding-top: 70px;
   padding-bottom: 20px;
 	background: url("../img/gl_tlo.png");
-	background-repeat: repeat-x repeat-y;
-}
+	background-repeat: repeat-x repeat-y;}
 footer{
-	height: 50px;
 	padding-top: 15px;
-	margin-top: 15px;
-	background: url("../img/tlo.png");
-	background-repeat: repeat-x repeat-y;
-}
-#banner { 
+	margin-top: 15px; }
+.jumbotron{ 
 	padding: 20% 0;
 	background: url("../img/slajd1.png") no-repeat center center;
 	background-size: cover;
-}
-#fcb{
+	margin-bottom: 0px;}
+.jumbotron a#fcb{
 	background: url("../img/fcb.png") no-repeat center center;
 	background-size: contain;
 	padding: 5% 10%;
-	float: right;
-}
-.jumbotron{margin-bottom: 0px;}
-
-.gray_row{background-color: white; }
-
-img#ikona{ margin-bottom: 5px; }
-
-img.fot{ float: right; }
-
+	float: right;}
+img.fot{
+	float: right;}
 img.eko{
-float: right;
-margin: 10%;
-}
-.nav > li { vertical-align: middle; }
-.nav > li > a { 
+	float: right;
+	margin: 10%;}
+.nav>li>a{
+	margin-top: 15px;
+	padding: 0;
+	margin-bottom: -5px;}
+.nav>li>a, ul.dropdown-menu>li>a{ 
 	white-space: nowrap;
 	color: white;
-	font-weight: bold;
-	padding: 0;
-}
-.nav > li > a:hover,a:focus{ 
-color: black;
-background-color: transparent;
-}
-
-b{color: white; }
-
-.navbar-inverse{
-	background: url("../img/tlo.png");
-	background-repeat: repeat-x repeat-y;
-}
-.navbar-brand{
-	padding-top: 5px;
-	padding-left: 0%;
-}
-.navbar-header{vertical-align: middle;}
-
-.navbar-toggle{ margin: 0; }
-.navbar-toggle#logo_tog{
-border: none;
-padding: 0;
-margin-right: 30%;
-}
-.navbar-toggle#but_tog{
-margin-top: 20px;
-margin-right: 20px;
-}
+	font-weight: bold;}
+.nav>li>a:hover,a:focus, .nav .open>a:focus, ul.dropdown-menu>li>a:hover,a:focus{
+	background-color: transparent;}
+.nav>li>a.act,.nav>li>a:hover,a:focus{
+	color: black;}
 img.logo{ 
 	padding-top: 5px;
-	height: 70px;
-}
-.navbar-header{ height: 70px; }
-
-
-#mzs{ margin-bottom: 0; }
-
+	height: 70px;}
+#mzs{
+	margin-bottom: 0;}
 #face{
-padding-top: 30px;
-padding-bottom: 30px;
-padding-right: 0;
-background-color: white;
-}
-.facebook{ float: right; }
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 0;
+	background-color: white;}
+.facebook{
+	float: right; }
 .facebook#okrag1{
 	background: url("../img/okrag.png") no-repeat center center;
 	background-size: contain;
 	width: 110px;
 	height: 110px;
-margin-left: 18%;
-float: left;
-text-align: center;
-vertical-align: middle;
-}
+	margin-left: 18%;
+	float: left;
+	text-align: center;
+	vertical-align: middle; }
 .facebook#okrag{
 	background: url("../img/okrag.png") no-repeat center center;
 	background-size: contain;
 	width: 110px;
 	height: 110px;
-margin-left: 3%;
-float: left;
-text-align: center;
-vertical-align: middle;
-}
-hr{border-color: #000;  }
-#staramy{margin-top: 0.8em;}
-p{text-indent: 2em;}
+	margin-left: 3%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;}
+hr{
+	border-color: #000;}
+#staramy{
+	margin-top: 0.8em;}
+p{
+	text-indent: 2em;}
 img#contencik{
-float: left;
-margin-top: 5em;
-margin-left: 3em;
-}
+	float: left;
+	margin-top: 5em;
+	margin-left: 3em; }
 img#zapraszamy{
-	float: right;
-}
+	float: right;}
+.caret {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid white;}
