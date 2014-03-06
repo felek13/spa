@@ -10,11 +10,19 @@ body {
 footer{
 	padding-top: 15px;
 	margin-top: 15px; }
-.jumbotron{ 
+#tekst{ 
+	background-color: #FFF; }
+#banner{ 
 	padding: 20% 0;
 	background: url("../img/slajd1.png") no-repeat center center;
 	background-size: cover;
 	margin-bottom: 0px;}
+#facebook{
+	border:none;
+	margin-right: 5%;
+	padding: 0;}
+#facebook img{
+	height: 50px; }
 .jumbotron a#fcb{
 	background: url("../img/fcb.png") no-repeat center center;
 	background-size: contain;
@@ -22,6 +30,8 @@ footer{
 	float: right;}
 img.fot{
 	float: right;}
+li span{
+	margin-bottom: 10px;}
 img.eko{
 	float: right;
 	margin: 10%;}
@@ -33,10 +43,12 @@ img.eko{
 	white-space: nowrap;
 	color: white;
 	font-weight: bold;}
-.nav>li>a:hover,a:focus, .nav .open>a:focus, ul.dropdown-menu>li>a:hover,a:focus{
+.nav>li>a:hover,a:focus, .nav .open>a:focus, ul.dropdown-menu>li>a:hover,a:focus,#facebook:hover{
 	background-color: transparent;}
 .nav>li>a.act,.nav>li>a:hover,a:focus{
-	color: black;}
+	color: black;
+	border-top: black;
+}
 img.logo{ 
 	padding-top: 5px;
 	height: 70px;}
