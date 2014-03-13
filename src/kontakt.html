@@ -47,9 +47,9 @@
 							<img id="ikona" src="img/gl_onas.png" alt="O nas">
 							</br>O NAS</a></li>
 					<li class="dropdown">
-						<a class="act"  href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
-							<img id="ikona" src="img/gl_oferta_a.png" alt="Oferta">
-							</br>OFERTA</br><span class="caret act"></span></a>
+						<a href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
+							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
+							</br>OFERTA</br><span  class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
 							<li class="divider"></li>
@@ -65,8 +65,8 @@
 					<li><a  href="newsletter.html">
 							<img id="ikona" src="img/gl_news.png" alt="Newsletter">
 							</br>NEWSLETTER</a></li>
-					<li><a  href="kontakt.html">
-							<img id="ikona" src="img/gl_akt.png" alt="Kontakt">
+					<li><a  class="act" href="kontakt.html">
+							<img id="ikona" src="img/gl_kont_a.png" alt="Kontakt">
 							</br> KONTAKT</a></li>
 				</ul>
 			</div><!--/.navbar-collapse -->
@@ -80,45 +80,54 @@
 	<div class="jumbotron visible-xs" id="tekst"> 
 		<img class="img-responsive" src="img/mzs.png" alt="Małe Zielone Spa">
 	</div><!--jumbotron-->	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h4 class="text-right">zabiegi na okolice oczu</h4> <hr> 
-				<h3>EKO ZABIEG NA OKOLICE OCZU ODMŁADZAJĄCO-WYGŁADZAJĄCY</h3>
-				<p class="text-justify">
-				Zabieg na okolice oczu Jamela z okularami Infra Red- redukujący sińce, zmarszczki pod oczami- Lifting oczu bez skalpelaKolagen+ Kwas hialuronowy+ Aktywne 24 k złoto+ Fale infraredEfekty:
-				<ul>
-					<li>wyraźne wygładzenie zmarszczek</li>
-					<li>usuwa cienie i opuchliznę</li>
-					<li>ujędrnia i uelastycznia skórę</li>
-					<li>nadaje blask i poprawia kontur Twoim oczom</li>
-					<li>Usuwa ból zmęczonym oczom</li>
-					<li>Pobudza mikrokrążenie</li>
-					<li>Reaktywuje komórki skóry</li>
-					<li>Pobudza produkcję kolagenu</li>
-				</ul>
-				</p>
-				<h3> PEELINGI CHEMICZNE - KWAS MIGDAŁOWY </h3>
-				<p class="text-justify">
-				Czas trwania zabiegu: ok. 40 minutW celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serie zabiegów co 6  miesięcy.
-				</p>
-				<h3> PEELINGI CHEMICZNE - KWAS GLIKOLOWY	</h3>
-				<p class="text-justify">
-				Czas trwania zabiegu: ok. 40 minutW celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serie zabiegów co 6  miesięcy.
-				</p>
-			</div> 
 
-			<div class="col-md-4">
-				<img id="contencik" src="img/konsultacje.png" alt="">
-				<a href=""><img id="contencik" class="img-responsive" src="img/news.png" alt=""></a>
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-8 col-xs 6 text-center">
+				<address>
+					<strong>Małe Zielone Spa</strong><br>
+					ul. Wyścigowa 20a<br>
+					26-600 Radom<br>
+					<abbr title="telefon">tel:</abbr> 662 005 759 
+				</address>
+				<address>
+					<strong>mgr inż Paulina Złotko</strong><br>
+					<a href="mailto:#">sparadom@gmail.com</a>
+				</address>
+				<form role="form" class="form-horizontal">
+					<fieldset>
+						<legend>
+							formularz kontaktowy
+						</legend>
+					</fieldset>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Adres e-mail</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label>treść wiadomości</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+						
+				</form>
 			</div>
-		</div><!--row-->
+			<div class="col-md-4 col-xs-6">
+				<a href="">
+					<img id="contencik" class="img-responsive" src="img/news.png" alt="">
+				</a>
+				<img id="contencik" class="img-responsive" src="img/konsultacje.png" alt="">
+			</div>
+		</div>
+
 	</div> <!-- /container -->
-	<footer class="container-fluid">
-		<p class="text-center">
-			home | aktualności | o nas | oferta | galeria | newsletter | program referencyjny | program lojalnościowy | promocje | last minute | kontakt
-		</p>
+
+		<footer class="container-fluid">
+			<p class="text-center">
+								home | aktualności | o nas | oferta | galeria | newsletter | program referencyjny | program lojalnościowy | promocje | last minute | kontakt
+			</p>
 		</footer>
+
 	<!-- Bootstrap core JavaScript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->

@@ -90,3 +90,8 @@ img#zapraszamy{
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	border-top: 8px solid white;}
+.caret.act{
+	border-top: 8px solid black;}
+address{
+margin-top: 1em;
+font-size: 1.5em;}

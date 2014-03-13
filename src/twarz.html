@@ -24,62 +24,62 @@
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">
-					<img id="logo" src="img/logo_m.png" alt="logo" > 
+				<button type="button"  id="facebook" class="navbar-toggle"> 
+					<img  class="img-responsive" src="img/facebook.png" alt="facebook" > 
+				</button>
+				<a  id="logo_tog" href="index.html">
+					<img  class="logo" src="img/logo_m.png" alt="logo" > 
 				</a>
 			</div> <!--navbar-header-->
 			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li  id="ikona_menu">
-						<a  href="aktualności.html">
+				<ul class="nav nav-justified">
+					<li><a href="index.html">
+							<img  id="ikona"  src="img/gl_home.png" alt="glowna strona">
+							</br>HOME</a></li>
+					<li><a href="aktualności.html">
 							<img  id="ikona"  src="img/gl_akt.png" alt="aktualności">
-							</br><b>AKTUALNOŚCI</b>
-						</a>
-					</li>
-					<li id="ikona_menu">
-						<a  href="onas.html">
+							</br>AKTUALNOŚCI</a></li>
+					<li><a href="onas.html">
 							<img id="ikona" src="img/gl_onas.png" alt="O nas">
-							</br><b>O NAS</b>
-						</a>
-					</li>
-					<li id="ikona_menu">
-					<a  href="oferta.html">
-							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
-							</br><b>OFERTA</b> 
-						</a>
-					</li>
-					<li id="ikona_menu">
-						<a  href="galeria.html">
+							</br>O NAS</a></li>
+					<li class="dropdown">
+						<a class="act"  href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
+							<img id="ikona" src="img/gl_oferta_a.png" alt="Oferta">
+							</br>OFERTA</br><span class="caret act"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
+							<li class="divider"></li>
+							<li><a href="oczy.html">Oczy</a></li>
+							<li class="divider"></li>
+							<li><a href="twarz.html">Twarz</a></li>
+							<li class="divider"></li>
+							<li><a href="ciało.html">Ciało</a></li>
+						</ul></li>
+					<li><a href="galeria.html">
 							<img id="ikona" src="img/gl_gal.png" alt="Galeria">
-							</br> <b>GALERIA</b>
-						</a>
-					</li>
-					<li id="ikona_menu">
-						<a  href="newsletter.html">
+							</br>GALERIA</a></li>
+					<li><a  href="newsletter.html">
 							<img id="ikona" src="img/gl_news.png" alt="Newsletter">
-							</br> <b>NEWSLETTER</b>
-						</a>
-					</li>
-					<li id="ikona_menu">
-						<a  href="kontakt.html">
+							</br>NEWSLETTER</a></li>
+					<li><a  href="kontakt.html">
 							<img id="ikona" src="img/gl_akt.png" alt="Kontakt">
-							</br> <b>KONTAKT</b>
-						</a>
-					</li>
+							</br> KONTAKT</a></li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div><!--container-->
 	</div><!--role navigation-->
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron" id="banner"> 
-		<a class="facebook" id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	
-			<img src="img/fcb.png" alt="">
-		</a>
+
+	<div class="jumbotron hidden-xs" id="banner"> 
+						<a id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	</a>
 	</div><!--jumbotron-->
+
+	<div class="jumbotron visible-xs" id="tekst"> 
+		<img class="img-responsive" src="img/mzs.png" alt="Małe Zielone Spa">
+	</div><!--jumbotron-->	
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
