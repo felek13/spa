@@ -1,4 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+* {
+	font-family: Futura, "Gill Sans", "Century Gothic", "Dejavu Sans", "Trebuchet MS", sans-serif ;
+}
 footer,.navbar-inverse, ul.dropdown-menu{
 	background: url("../img/tlo.png");
 	background-repeat: repeat-x repeat-y;}
