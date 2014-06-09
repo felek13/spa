@@ -9,28 +9,35 @@ body {
   padding-top: 70px;
   padding-bottom: 20px;
 	background: url("../img/gl_tlo.png");
-	background-repeat: repeat-x repeat-y;}
+	background-repeat: repeat-x repeat-y;
+}
 footer{
 	padding-top: 15px;
-	margin-top: 15px; }
+	margin-top: 15px; 
+}
 #tekst{ 
-	background-color: #FFF; }
+	background-color: #FFF;
+}
 #banner{ 
 	padding: 20% 0;
 	background: url("../img/slajd1.png") no-repeat center center;
 	background-size: cover;
-	margin-bottom: 0px;}
+	margin-bottom: 0px;
+}
 #facebook{
 	border:none;
 	margin-right: 5%;
-	padding: 0;}
+	padding: 0;
+}
 #facebook img{
-	height: 50px; }
+	height: 50px;
+}
 .jumbotron a#fcb{
 	background: url("../img/fcb.png") no-repeat center center;
 	background-size: contain;
 	padding: 5% 10%;
-	float: right;}
+	float: right;
+}
 li span{
 	margin-bottom: 10px;}
 img.eko{
@@ -78,23 +85,64 @@ img.logo{
 	margin-left: 3%;
 	float: left;
 	text-align: center;
-	vertical-align: middle;}
+	vertical-align: middle;
+}
 hr{
-	border-color: #000;}
+	border-color: #000;
+}
 #staramy{
-	margin-top: 0.8em;}
+	margin-top: 0.8em;
+}
 p{
-	text-indent: 2em;}
-img#contencik{
-	margin-top: 1em; }
+	text-indent: 2em;
+}
+.contencik{
+	margin-top: 1em; 
+}
 img#zapraszamy{
-	float: right;}
+	float: right;
+}
 .caret {
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	border-top: 8px solid white;}
-.caret.act{
-	border-top: 8px solid black;}
+.caret.act
+{
+	border-top: 8px solid black;
+}
+
 address{
-margin-top: 1em;
-font-size: 1.5em;}
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+.thumbnail{
+	background: transparent;
+	border: none;
+	margin-top: 1em;
+}
+td,th,tr{
+	border:none;
+}
+a{
+	color: #333;
+}
+td,th{
+	padding: 0.3em;
+}
+table,tr,th{
+	border:1px solid #333;
+
+}
+table,tr{
+	width:100%;
+}
+th{
+	text-align: center;
+}
+td{
+	padding-left: 2em;
+}
+#tdi{
+	text-align: right;
+}
+

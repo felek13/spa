@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="/assets/ico/favicon.ico">
+	<title>Małe Zielone Spa</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/styl.css" rel="stylesheet">
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<button type="button"  id="facebook" class="navbar-toggle"> 
+					<img  class="img-responsive" src="img/facebook.png" alt="facebook" > 
+				</button>
+				<a id="logo_tog" href="index.html">
+					<img  class="logo" src="img/logo_m.png" alt="logo" > 
+				</a>
+			</div> <!--navbar-header-->
+			<div class="navbar-collapse collapse">
+				<ul class="nav nav-justified">
+					<li>
+						<a class="act" href="index.html">
+							<img  id="ikona"  src="img/gl_home_a.png" alt="glowna strona">
+							</br>HOME
+						</a>
+						</li>
+          <!--
+					  <li><a href="aktualności.html">
+					  		<img  id="ikona"  src="img/gl_akt.png" alt="aktualności">
+					  		</br>AKTUALNOŚCI</a></li>
+          -->
+					<li>
+						<a href="onas.html">
+							<img id="ikona" src="img/gl_onas.png" alt="O nas">
+							</br>
+							O NAS
+						</a>
+						</li>
+					<li class="dropdown">
+						<a href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
+							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
+							</br>OFERTA</br><span  class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
+							<li class="divider"></li>
+							<li><a href="oczy.html">Oczy</a></li>
+							<li class="divider"></li>
+							<li><a href="twarz.html">Twarz</a></li>
+							<li class="divider"></li>
+							<li><a href="cialo.html">Ciało</a></li>
+						</ul>
+					</li>
+					  <li><a href="galeria.html">
+					  		<img id="ikona" src="img/gl_gal.png" alt="Galeria">
+					  		</br>GALERIA</a></li>
+          <!--
+					  <li><a  href="newsletter.html">
+					  		<img id="ikona" src="img/gl_news.png" alt="Newsletter">
+					  		</br>NEWSLETTER</a></li>
+          -->
+					<li>
+						<a  href="kontakt.html">
+							<img id="ikona" src="img/gl_kont.png" alt="Kontakt">
+							</br> KONTAKT
+						</a>
+					</li>
+				</ul>
+			</div><!--/.navbar-collapse -->
+		</div><!--container-->
+	</div><!--role navigation-->
+	<div class="jumbotron hidden-xs" id="banner"> 
+						<a id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	</a>
+	</div><!--jumbotron-->
+	<div class="jumbotron visible-xs" id="tekst"> 
+		<img class="img-responsive" src="img/mzs.png" alt="Małe Zielone Spa">
+	</div><!--jumbotron-->	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-xs-6">
+				<br />
+				<table> 
+					<tr>
+						<th colspan="2">
+							Komputerowe	badanie skóry i konsultacja
+						</th>
+					</tr>
+					<tr>
+						<td>
+							Konsultacja z komputerowym badaniem skóry 
+						</td>
+						<td>
+							20 zł
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Konsultacja z komputerowym badaniem skóry przy zabiegu na twarz
+						</td>
+						<td>
+							Gratis!
+						</td>
+					</tr>
+				</table>				
+				<br />
+				<table>
+					<tr>
+						<td colspan="2">
+					<img class="eko" src="img/eko_ikona.png" alt="">
+							<h2>EKO KOBIETA</h2>
+							<h3>ZABIEGI NA TWARZ</h3> 
+							<p class="text-justify">
+								Wszystkie zabiegi odbywają się według podobnego schematu:
+								<ul>
+									<li>demakijaż</li>
+									<li>peeling</li>
+									<li>ziołowy masaż twarzy</li>
+									<li>maska na bazie zielonej glinki (argiloterapia) </li>
+									<li>serum/koncentrat roślinny dostosowany do potrzeb skóry</li>
+									<li>maska algowa</li>
+									<li>odpowiednio dobrany krem do twarzy</li>
+									<li>krem na okolice oczu</li>
+								</ul>
+								Zabiegi wykonywane są na bazie preparatów, opartych na naturalnych i ekologicznych surowcach. Zawierają wysokie stężenie substancji aktywnych. Zabieg może być wykonany jednorazowo, jednak w celu uzyskania widocznych rezultatów sugerowane jest   wykonanie  serii 8- 12 zabiegów, co 7- 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg 1- 2 razy w miesiącu.
+							</p>
+						</td>
+					</tr>
+					<tr>
+					 <td>
+					 	Zabieg nawilżający wprowadzający dla skóry suchej, odwodnionej 
+					 </td>
+					 <td>
+						120 zł
+					 </td>
+					</tr>				 
+				 <tr>
+					<td>
+						Zabieg liftingujący- anti aging dla skóry dojrzałej 
+					</td>
+					<td>
+						120 zł
+					</td>
+				 </tr>
+				 <tr>
+					 	<td>
+					 		Zabieg przeciwtrądzikowy- oczyszczający- dla skóry tłustej, trądzikowej, zanieczyszczonej
+					 	</td>
+						<td>
+							120 zł
+						</td>
+				 </tr>
+				 <tr>
+					<td>
+						Zabieg wzmacniający dla cery naczynkowej, wrażliwej, z trądzikiem różowatym
+					</td>
+					<td>
+						120 zł
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Zabieg bankietowy- efekt liftingu i wygładzenia 
+					</td>
+					<td>
+						120 zł
+					</td>
+				 </tr>
+				</table>
+				<br />
+<table>
+					<tr>
+						<td colspan="2">
+					<img class="eko" src="img/eko_ikona.png" alt="">
+					<h2> EKO MĘŻCZYZNA </h2>
+					<h3> ZABIEGI NA TWARZ </h3>
+					<p class="text-justify">
+					Wszystkie zabiegi odbywają się według podobnego schematu :
+					<ul>
+						<li>demakijaż</li>
+						<li>peeling </li>
+						<li>ziołowy masaż twarzy</li>
+						<li>maska na bazie zielonej glinki (argiloterapia) </li>
+						<li>serum/koncentrat roślinny dostosowany do potrzeb skóry</li>
+						<li>maska algowa</li>
+						<li>odpowiednio dobrany krem do twarzy</li>
+						<li>krem na okolice oczu</li>
+					</ul>
+					Zabiegi wykonywane są na bazie preparatów, opartych na naturalnych i ekologicznych surowcach. Zawierają wysokie stężenie substancji aktywnych. Zabiegi wykonywane w serii 8- 12, co 7- 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg 1- 2 razy w miesiącu.razy w miesiącu.
+					</p>
+</td>
+					</tr>
+					<tr>
+					 <td>
+				zabieg oczyszczający dla skóry zanieczyszczonej, tłustej, trądzikowej, zmęczonej
+</td>
+					 <td>
+						130 zł
+					 </td>
+					</tr>				 
+				 <tr>
+					<td>
+				 Zabieg regeneracyjno- przeciwzmarszczkowy dla skóry dojrzałej
+</td>
+					<td>
+						130 zł
+					</td>
+				 </tr>
+				 <tr>
+					 	<td>
+				 Zabieg nawilżający dla skóry suchej, łuszczącej się, odwodnionej
+</td>
+						<td>
+							130 zł
+						</td>
+				 </tr>
+				</tr>
+				</table>
+ 
+<table>
+	<tr>
+		<th colspan="2">
+			ULTRADŻWIĘKI
+		</th>
+	</tr>
+			 <tr>
+			 	<td colspan="2">
+			 		W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 6 – 12 zabiegów w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serię zabiegów co 6 – 12 miesięcy.
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny twarz
+			 	</td>
+			 	<td>
+			 		50 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny twarz, szyja
+			 	</td>
+			 	<td>
+			 		60 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny twarzy, szyi i dekoltu
+			 	</td>
+			 	<td>
+			 		70 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny, sonoforeza, maska algowa na twarz
+			 	</td>
+			 	<td>
+			 		90 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny twarz, szyja, dekolt, sonoforeza
+			 	</td>
+			 	<td>
+			 		130 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Peeling kawitacyjny do innego zabiegu  na twarz
+			 	</td>
+			 	<td>
+			 		30 zł
+			 	</td>
+			 </tr>
+			 <tr>
+			 	<td>
+			 		Sonoforeza  z ampułką do innego zabiegu na twarz/ dekolt i szyję
+			 	</td>
+			 	<td>
+			 		30 zł
+			 	</td>
+			 </tr>
+</table>
+				<br />
+<table>
+		<tr>
+			<th colspan="2">
+				mikrodermabrazja diamentowa
+			</th>
+		</tr>
+	<tr>
+		<td colspan="2">
+			w celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 6 – 12  w odstępach 7 – 14 dni. w celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serię zabiegów co 6 – 12 miesięcy.
+		</td>
+	</tr>
+	<tr>
+		<td>mikrodermabrazja twarzy </td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>mikrodermabrazja twarz, szyja</td>
+		<td>120 zł</td>
+	</tr>
+	<tr>
+		<td>mikrodermabrazja twarzy, szyi i dekoltu</td>
+		<td>150 zł</td>
+	</tr>
+	<tr>
+		<td>mikrodermabrazja twarzy z sonoforezą i maską </td>
+		<td>140 zł</td>
+	</tr>
+</table>
+				<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Mezoterapia mikroigłowa frakcyjna
+	</th>
+	</tr>
+	<tr>
+	<td colspan="2">
+		Czas trwania zabiegu mezoterapii: od 5- 25 minut w zależności od powierzchni skóry i ilości przejść frakcyjnych. Po zabiegu na twarz nakładana jest maska algowa lub płat kolagenowy.  W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 12  w odstępach 7 – 14 dni.
+	</td>
+	</tr>
+	<tr>
+		<td>Twarz</td>
+		<td>Od 200 zł</td>
+	</tr>
+	 <tr>
+	 	<td>Twarz, szyja, </td>
+	 	<td>Od 250 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Twarz, szyja, dekolt</td>
+	 	<td>Od 300 zł</td>
+	 </tr>
+	 <tr></tr>
+	 <td>Ciało –obszar 10 cm x 10 cm</td>
+	<td>od 250 zł</td>
+<tr>
+	<td>Płat kolagenowy do zabiegu</td>
+	<td>40zł</td>
+</tr>
+</table>
+				<br />
+<table>
+	<tr>
+	 <th colspan="2">
+		Radiofrekwencja (RF)- fale radiowe
+	</th>
+	</tr>
+	<tr>
+	<td colspan="2">
+		W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. 
+		Czas trwania zabiegu: 20- 40 minut w zależności od powierzchni poddanej zabiegowi. 
+	</td>
+	</tr>
+	<tr>
+		<td>RF Twarz</td>
+		<td>150 zł</td>
+	</tr>
+	<tr>
+		<td>RF Twarz, Szyja</td>
+		<td>200 zł</td>
+	</tr>
+	<tr>
+		<td>RF Twarz, szyja, dekolt</td>
+		<td>250 zł</td>
+	</tr>
+	<tr></tr>
+	<td>RF Uda</td>
+	<td>90 zł</td>
+	<tr>
+		<td>RF Pośladki</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>RF Uda i pośladki</td>
+		<td>160 zł</td>
+	</tr>
+	<tr>
+		<td>RF Brzuch</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+	<th colspan="2">
+		Przy zakupie serii zabiegów na daną partię- ostatni zabieg 50 % ceny!
+	</th>
+	</tr>
+</table>
+				<br />
+<table>
+	<tr>
+		<th colspan="2">
+			ENDERMOMASAŻ- MASAŻ PODCIŚNIENIOWY
+		</th>
+	</tr>
+	<tr>
+		<td colspan="2">
+			Czas trwania zabiegu: 20- 40 minut
+			Minimalna ilość zabiegów w celu uzyskania zamierzonych efektów 6- 20 zabiegów. Częstotliwość zabiegu: od jednego do trzech razy w tygodniu, następnie raz w miesiącu dla podtrzymania efektu.
+		</td>
+	</tr>
+	<tr>
+		<td>Brzuch</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Uda</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Pośladki</td>
+		<td>30 zł</td>
+	</tr>
+	<tr>
+		<td>Ramiona</td>
+		<span>
+			<td>30 zł</td>
+		</span>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Zabiegi na okolice oczu
+	</th>
+	</tr>
+	<tr>
+		<td>Eko zabieg na okolice oczu- odmładzająco- wygładzający</td>
+		<td>60 zł</td>
+	</tr>
+	<tr>
+		<td>Zabieg na okolice oczu Jamela z okularami Infra Red- redukujący sińce, zmarszczki pod oczami</td>
+		<td>60 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+		<th colspan="2">
+			Peelingi chemiczne 
+		</th>
+	</tr>
+	<tr>
+		<td colspan="2" >
+			Czas trwania zabiegu: ok. 40 minut
+			W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serie zabiegów co 6  miesięcy.
+		</td>
+	</tr>
+		<tr>
+			<td>
+				Kwas migdałowy- twarz
+			</td>
+			<td>100 zł</td>
+		</tr>
+		<tr>
+			<td>Kwas migdałowy twarz, szyja</td>
+			<td>140 zł</td>
+		</tr>
+	<tr>
+		<td>Kwas migdałowy twarz, szyja, dekolt</td>
+		<td>190 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		MANICURE & PEDICURE 
+	</th>
+	</tr>
+	 <tr>
+	 	<td>Manicure – opiłowanie paznokci, odsunięcie skórek, malowanie paznokci</td>
+	 	<td>40 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Manicure hybrydowy Shellac CND- opiłowanie paznokci, odsunięcie skórek, malowanie paznokci lakierem hybrydowym </td>
+	 	<td>60 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Manicure japoński</td>
+	 	<td>50 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Manicure francuski french wrap</td>
+	 	<td>60 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Manicure francuski french wrap hybrydowy</td>
+	 	<td>70 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Eco Manicure SPA- kąpiel dłoni, opiłowanie paznokci, odsunięcie skórek, malowanie paznokci, peeling dłoni, maska</td>
+	 	<td>60 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Pedicure </td>
+	 	<td>Od 70 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Pedicure hybrydowy Shellac CND- kąpiel stóp, pedicure frezarką, odsunięcie skórek, opiłowanie paznokci, nałożenie lakieru hybrydowego</td>
+	 	<td>100 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Eko Pedicure SPA- kąpiel stóp, pedicure frezarką, peeling, opiłowanie paznokci, odsunięcie skórek, pomalowanie paznokci, maska</td>
+	 	<td>100 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Pedicure z kwasami </td>
+	 	<td>100 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Pedicure z kwasami +hybryda</td>
+	 	<td>160 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Pedicure japoński</td>
+	 	<td>90 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Parafina na dłonie</td>
+	 	<td>35 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Usunięcie hybrydy/ przed kolejnym zabiegiem gratis!</td>
+	 	<td>20 zł</td>
+	 </tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Henna i regulacja 
+	</th>
+	</tr>
+	<tr>
+		<td>Henna brwi </td>
+		<td>10 zł</td>
+	</tr>
+	<tr>
+		<td>Henna rzęs</td>
+		<td>10 zł</td>
+	</tr>
+	<tr>
+		<td>Henna i regulacja brwi</td>
+		<td>15  zł</td>
+	</tr>
+	<tr>
+		<td>Henna rzęs, brwi i regulacja</td>
+		<td>25 zł</td>
+	</tr>
+	<tr>
+		<td>Regulacja brwi</td>
+		<td>10 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Makijaż
+	</th>
+	</tr>
+	<tr>
+		<td>Makijaż </td>
+		<td>Od 60 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+		<td>Przekłuwanie uszu</td>
+		<td>50 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Depilacja pastą cukrową
+	</th>
+	</tr>
+	<tr>
+		<td>Łuki brwiowe/ Górna warga/ Broda</td>
+		<td>15 zł</td>
+	</tr>
+	<tr>
+		<td>Szyja/ Kark</td>
+		<td>35 zł</td>
+	</tr>
+	<tr>
+		<td>Pachy</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Bikini</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Bikini brazylijskie</td>
+		<td>100 zł</td>
+	</tr>
+	<tr>
+		<td>Przedramiona</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Całe ręce</td>
+		<td>60 zł</td>
+	</tr>
+	<tr>
+		<td>Klatka piersiowa</td>
+		<td>Od 90 zł</td>
+	</tr>
+	 <tr>
+	 	<td>Plecy</td>
+	 	<td>Od 90 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Łydki</td>
+	 	<td>70 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Uda</td>
+	 	<td>70 zł</td>
+	 </tr>
+	 <tr>
+	 	<td>Całe nogi</td>
+	 	<td>130 zł</td>
+	 </tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Epilfree + depilacja pastą cukrową
+	</th>
+	</tr>
+	<tr>
+		<td>Wąsik/ Bródka/ Brwi</td>
+		<td>45 zł</td>
+	</tr>
+	<tr>
+		<td>Pachy</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>Bikini</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>Bikini brazylijskie</td>
+		<td>180 zł</td>
+	</tr>
+	<tr>
+		<td>Sutki</td>
+		<td>70 zł</td>
+	</tr>
+	<tr>
+		<td>Szyja/ Kark</td>
+		<td>70 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Zabieg samoopalający FAKE BAKE
+	</th>
+	</tr>
+	<tr>
+		<td>Całe ciało</td>
+		<td>150- 170 zł</td>
+	</tr>
+	<tr>
+		<td>Twarz</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Twarz, szyja, dekolt</td>
+		<td>70 zł</td>
+	</tr>
+	<tr>
+		<td>Nogi, pośladki</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>Nogi</td>
+		<td>80 zł</td>
+	</tr>
+</table>
+<br />
+<table>
+	<tr>
+	<th colspan="2">
+		Masaże
+	</th>
+	</tr>
+	Masaż klasyczny (leczniczy)
+	<tr>
+		<td>Plecy (30 min)</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Kończyny górne (30 min)</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Kończyny dolne (30 min)</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Całe ciało (1h)</td>
+		<td>80 zł</td>
+	</tr>
+	<tr>
+	<th colspan="2">
+		Drenaż limfatyczny
+	</th>
+	</tr>
+	<tr>
+		<td>Plecy (30 min)</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Kończyny górne (30 min)</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Kończyny dolne (30 min)</td>
+		<td>60 zł</td>
+	</tr>
+	<tr>
+		<td>Całe ciało (1h)</td>
+		<td>100 zł</td>
+	</tr>
+	<tr>
+	<th colspan="2">
+		Masaż relaksacyjny
+	</th>
+	</tr>
+	<tr>
+		<td>Plecy</td>
+		<td>50 zł</td>
+	</tr>
+	<tr>
+		<td>Całe ciało</td>
+		<td>90 zł</td>
+	</tr>
+	<tr>
+		<td>Masaż twarzy</td>
+		<td>40 zł</td>
+	</tr>
+	<tr>
+		<td>Masaż wyszczuplający</td>
+		<td>100 zł</td>
+	</tr>
+	<tr>
+		<td>Kinesiologytaping </td>
+		<td>50 zł/ aplikacja</td>
+	</tr>
+	<tr>
+	<th colspan="2">
+		Przy zakupie serii min. 6 zabiegów rabat- 5 % !
+	</th>
+	</tr>
+</table>
+<br />
+
+
+
+
+			</div>
+<!-- sidebar -->
+			<div class="col-md-4 col-xs-6">
+				<a href="kontakt.html">
+					<img class="contencik" class="img-responsive" src="img/news.png" alt="">
+				</a>
+				<img class="contencik" class="img-responsive"  src="img/konsultacje.png" alt="">
+				<a href="cennik.html">
+					<img class="contencik" class="img-responsive" src="img/cennik.png" alt="">
+				</a>
+			</div>
+<!-- /sidebar -->
+		</div><!--row-->
+	</div> <!-- /container -->
+
+	<footer class="container-fluid">
+		<p class="text-center">
+		 
+			home | 
+			<!-- aktualności  -->
+			<a href="onas.html">o nas | </a> 
+			oferta  |
+			<a href="galeria.html">galeria |</a> 
+			<a href="cennik.html">cennik  </a>
+			<!-- newsletter  --> 
+			<!-- program referencyjny  --> 
+			<!-- program lojalnościowy  --> 
+			<!-- promocje  --> 
+			<!-- last minute  -->| 
+			kontakt
+		</p>
+	</footer>
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
