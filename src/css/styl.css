@@ -29,20 +29,11 @@ footer{
 	margin-right: 5%;
 	padding: 0;
 }
-#facebook img{
-	height: 50px;
-}
-.jumbotron a#fcb{
-	background: url("../img/fcb.png") no-repeat center center;
-	background-size: contain;
-	padding: 5% 10%;
-	float: right;
-}
 li span{
 	margin-bottom: 10px;}
 img.eko{
 	float: right;
-	margin: 10%;}
+	margin-top: 10px;}
 .nav>li>a{
 	margin-top: 15px;
 	padding: 0;
@@ -145,5 +136,11 @@ td{
 }
 #tdi{
 	text-align: right;
+width: 20%;
+}
+iframe{
+margin-top: 15px;
+margin-bottom: -15px;
+vertical-align: middle;
 }
 

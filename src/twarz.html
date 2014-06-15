@@ -21,37 +21,56 @@
 	<![endif]-->
 </head>
 <body>
+<div id="fb-root" class="like"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";
+				  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
+					<span class="sr-only">Toggle navigation</span> 
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<button type="button"  id="facebook" class="navbar-toggle"> 
-					<img  class="img-responsive" src="img/facebook.png" alt="facebook" > 
-				</button>
-				<a  id="logo_tog" href="index.html">
+				<div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+						<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsparadom%3Ffref%3Dts&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe> 
+</div
+				<a id="logo_tog" href="index.html">
 					<img  class="logo" src="img/logo_m.png" alt="logo" > 
 				</a>
+
 			</div> <!--navbar-header-->
 			<div class="navbar-collapse collapse">
 				<ul class="nav nav-justified">
-					<li><a href="index.html">
-							<img  id="ikona"  src="img/gl_home.png" alt="glowna strona">
-							</br>HOME</a></li>
+					<li>
+						<a class="act" href="index.html">
+							<img  id="ikona"  src="img/gl_home_a.png" alt="glowna strona">
+							</br>HOME
+						</a>
+					</li>
           <!--
-					  <li><a href="aktualności.html">
-					  		<img  id="ikona"  src="img/gl_akt.png" alt="aktualności">
-					  		</br>AKTUALNOŚCI</a></li>
-          -->
-					<li><a href="onas.html">
+					<li>
+						<a href="aktualności.html"> 
+							<img  id="ikona"  src="img/gl_akt.png" alt="aktualności"> 
+							</br>AKTUALNOŚCI
+						</a>
+					</li> 
+					-->
+					<li>
+						<a href="onas.html">
 							<img id="ikona" src="img/gl_onas.png" alt="O nas">
-							</br>O NAS</a></li>
+							</br> O NAS
+						</a>
+					</li>
 					<li class="dropdown">
-						<a class="act" href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
-							<img id="ikona" src="img/gl_oferta_a.png" alt="Oferta">
-							</br>OFERTA</br><span  class="caret act"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
+							</br>OFERTA</br><span  class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
 							<li class="divider"></li>
@@ -59,109 +78,479 @@
 							<li class="divider"></li>
 							<li><a href="twarz.html">Twarz</a></li>
 							<li class="divider"></li>
-							<li><a href="cialo.html">Ciało</a></li>
+							<li><a href="manicure.html">Manicure</a></li>
+							<li class="divider"></li>
+							<li><a href="pedicure.html">Pedicure</a></li>
+							<li class="divider"></li>
+							<li><a href="masaż.html">Masaż</a></li>
+							<li class="divider"></li>
+							<li><a href="depilacja.html">Depilacja</a></li>
 							<li class="divider"></li>
 							<li><a href="cennik.html">Cennik</a></li>
-						</ul></li>
-					  <li><a href="galeria.html">
+						</ul>
+					</li>
+					  <li>
+							<a href="galeria.html">
 					  		<img id="ikona" src="img/gl_gal.png" alt="Galeria">
-					  		</br>GALERIA</a></li>
+					  		</br>GALERIA
+							</a>
+						</li>
           <!--
 					  <li><a  href="newsletter.html">
 					  		<img id="ikona" src="img/gl_news.png" alt="Newsletter">
 					  		</br>NEWSLETTER</a></li>
           -->
-					<li><a  href="kontakt.html">
+					<li>
+						<a href="kontakt.html">
 							<img id="ikona" src="img/gl_kont.png" alt="Kontakt">
-							</br> KONTAKT</a></li>
+							</br>Kontakt
+						</a>
+					</li>
+					<li>
+						<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsparadom%3Ffref%3Dts&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe> 
+				</li>
 				</ul>
-			</div><!--/.navbar-collapse -->
-		</div><!--container-->
-	</div><!--role navigation-->
+			</div><!--/.navbar-collapse --> </div><!--container-->
+</div>
 
+	</div><!--role navigation-->
 	<div class="jumbotron hidden-xs" id="banner"> 
 						<a id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	</a>
 	</div><!--jumbotron-->
-
 	<div class="jumbotron visible-xs" id="tekst"> 
 		<img class="img-responsive" src="img/mzs.png" alt="Małe Zielone Spa">
 	</div><!--jumbotron-->	
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8">
-				<div>
-					<img class="eko" src="img/eko_ikona.png" alt="">
-					<h4 class="text-right">Ekologiczne zabiegi pielęgnacyjne</h4> <hr>
-					<h2>EKO KOBIETA</h2>
-					<h3>ZABIEGI NA TWARZ</h3> 
-					<p class="text-justify">
-						Wszystkie zabiegi odbywają się według podobnego schematu:
-						<ul>
-							<li>demakijaż</li>
-							<li>peeling</li>
-							<li>ziołowy masaż twarzy</li>
-							<li>maska na bazie zielonej glinki (argiloterapia) </li>
-							<li>serum/koncentrat roślinny dostosowany do potrzeb skóry</li>
-							<li>maska algowa</li>
-							<li>odpowiednio dobrany krem do twarzy</li>
-							<li>krem na okolice oczu</li>
-						</ul>
-	Zabiegi wykonywane są na bazie preparatów, opartych na naturalnych i ekologicznych surowcach. Zawierają wysokie stężenie substancji aktywnych. Zabieg może być wykonany jednorazowo, jednak w celu uzyskania widocznych rezultatów sugerowane jest   wykonanie  serii 8- 12 zabiegów, co 7- 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg 1- 2 razy w miesiącu.
-					</p>
-					<div class="table-responsive">
-						<table class="table">
-							<tr class="gray_row"><td>Zabieg nawilżający wprowadzający dla skóry suchej, odwodnionej  /ok. 60 minut </td></tr>
-							<tr><td>Zabieg regenerujący- przeciwzmarszczkowy dla skóry dojrzałej / ok. 60 minut</td></tr>
-							<tr class="gray_row"><td>Zabieg liftingujący- anti aging dla skóry dojrzałej  / ok. 60 minut</td></tr>
-							<tr ><td>Zabieg przeciwtrądzikowy- oczyszczający- dla skóry tłustej, trądzikowej, zanieczyszczonej / ok. 60 minut</td></tr>
-							<tr class="gray_row"><td>Zabieg wzmacniający dla cery naczynkowej, wrażliwej, z trądzikiem różowatym / ok. 60 minut</td></tr>
-							<tr><td>Zabieg bankietowy- efekt liftingu i wygładzenia  / ok. 60 minut</td></tr>
-						</table>
-					</div>
-				</div>
-				<div>
-					<img class="eko" src="img/eko_ikona.png" alt="">
-					<h2> EKO MĘŻCZYZNA </h2>
-					<h3> ZABIEGI NA TWARZ </h3>
-					<p class="text-justify">
-					Wszystkie zabiegi odbywają się według podobnego schematu :
-					<ul>
-						<li>demakijaż</li>
-						<li>peeling </li>
-						<li>ziołowy masaż twarzy</li>
-						<li>maska na bazie zielonej glinki (argiloterapia) </li>
-						<li>serum/koncentrat roślinny dostosowany do potrzeb skóry</li>
-						<li>maska algowa</li>
-						<li>odpowiednio dobrany krem do twarzy</li>
-						<li>krem na okolice oczu</li>
-					</ul>
-					Zabiegi wykonywane są na bazie preparatów, opartych na naturalnych i ekologicznych surowcach. Zawierają wysokie stężenie substancji aktywnych. Zabiegi wykonywane w serii 8- 12, co 7- 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg 1- 2 razy w miesiącu.razy w miesiącu.
-					</p>
-					<div class="table-responsive">
-						<table class="table">
-							<tr class="gray_row"> <td> Zabieg oczyszczający dla skóry zanieczyszczonej, tłustej, trądzikowej, zmęczonej  /ok. 60 minut</td></tr>
-							<tr> <td> Zabieg regeneracyjno- przeciwzmarszczkowy dla skóry dojrzałej / ok. 60 minut</td></tr>
-							<tr><td class="gray_row">Zabieg nawilżający dla skóry suchej, łuszczącej się, odwodnionej  / ok. 60 minut</td></tr>
-							<tr>
-								<td>
-									Szybkie zabiegi ekologiczne i naturalne  dla zapracowanych. Schemat zabiegu:
-										<ul>
-											<li>demakijaż</li>
-											<li>peeling</li>
-											<li>koncentrat roślinny</li>
-											<li>maska kremowa</li>
-											<li>krem  /  ok. 30 minut</li>
-										</ul>
-								</td>
-							</tr>
-							<tr class="gray_row"> <td> Zabieg nawilżający </td> </tr>
-							<tr> <td> Zabieg regeneracyjny </td> </tr>
-							<tr class="gray_row"> <td> Zabieg oczyszczający</td></tr>
-						</table>
-					</div>
+			
+<div class="col-md-8 col-xs-6 text-justify">
+	<img class="eko" src="img/twarz.png" alt="">
+	<h4 class="text-right"> zabiegi na ciało </h4>
+	<hr>
+	<h3> EKOLOGICZNE ZABIEGI PIELĘGNACYJNE  SALUTERRA DLA KOBIET I MĘŻCZYZN - ARGILLOTERAPIA </h3>
+	<p>
+		Zabiegi wykonywane są na bazie preparatów, opartych na naturalnych i ekologicznych surowcach. Zawierają wysokie stężenie substancji aktywnych. Zabieg może być wykonany jednorazowo, jednak w celu uzyskania widocznych rezultatów sugerowane jest   wykonanie  serii 8- 12 zabiegów, co 7- 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg 1- 2 razy w miesiącu.
+	</p>
+Wszystkie zabiegi odbywają się według podobnego schematu :
+	<ul>
+		<li>-demakijaż</li>
+		<li>-peeling</li>
+		<li>- ziołowy masaż twarzy</li>
+		<li>-maska na bazie zielonej glinki (argiloterapia) </li>
+		<li>-serum/koncentrat roślinny dostosowany do potrzeb skóry</li>
+		<li>-maska algowa</li>
+		<li>-odpowiednio dobrany krem do twarzy</li>
+		<li>-krem na okolice oczu</li>
+	</ul>
+	<p>
+		W zależności od zdiagnozowanego problemu skóry możemy wykonać zabiegi: nawilżające, regeneracyjne, przeciwzmarszczkowe, przeciwtrądzikowe,  wzmacniające dla cery naczynkowej, liftingujące, bankietowe- przed wielkim wyjściem.
+	</p>
+	<p>
+		Połączenie minerałów i mikroelementów tlenku glinu oraz wyciągów roślinnych to podstawa ARGILLOTERAPII, bardzo skutecznej metody zabiegowej, która przywraca skórze równowagę. Komórki szybciej się regenerują, a skóra odzyskuje naturalny blask. Do kolejnych zalet należy zaliczyć fakt, że kosmetyki z tlenku glinu nadają się także dla tych klientek, które źle znoszą pielęgnację klasycznymi produktami kosmetycznymi. Naturalna czystość tlenku glinu sprawia, że jest to nadzwyczaj delikatna metoda. Uspokaja skórę nawet z poważnymi dolegliwościami oraz łagodnie przygotowuje ją do dalszych zabiegów. 
+	</p>
+	Efekty zabiegowe:
+	<ul>
+		<li>-zmarszczki stają się wygładzone i mniej zauważalne, naturalne działanie liftingujące jest odczuwalne już po pierwszym zabiegu</li>
+		<li>-następuje znaczne wzmocnienie naczyń krwionośnych, w przypadku trądziku różowatego/ młodzieńczego już po 6- 8 tygodniach widoczne jest złagodzenie podrażnień skórnych, skóra staje się gładka, cera lekko się rozjaśnia i jest wyraźnie zdrowa</li>
+		<li>-trądzik jest skutecznie redukowany, podrażnienia skórne są wyraźnie złagodzone, cera zregenerowana</li>
+	</ul>
+	<h3> PEELING MIGDAŁOWY </h3>
+	<p>
+		Zabieg z Peelingiem Migdałowym przeznaczony jest do pielęgnacji każdego rodzaju skóry twarzy i ciała. Z powodzeniem mogą korzystać z zabiegu osoby opalające się na słońcu i w solarium, z problemem słabego i umiarkowanego trądziku pospolitego, z tendencją do przebarwień jak również nietolerujące innych zabiegów na kwasach. Może być wykonywany przez cały rok, również w okresie letnim, bez ryzyka uwrażliwienia skóry na słońce i wystąpienia przebarwień u osób z wysokim fototypem. Zapobiega fotostarzeniu i sprawia, że skóra staje się bardziej odporna i mniej wrażliwa na promienie UV.
+	</p>
 
-				</div>
-			</div>
+	<h4> ZABIEG REGENERUJĄCO- REWITALIZUJĄCY </h4>
+	Wskazania do zabiegu: 
+	<ul>
+		<li>- zanik napięcia, elastyczności, nawilżenia </li>
+		<li>- ujednolicenie kolorytu skóry, opalenizny </li>
+		<li>- delikatne stany zapalne skóry</li>
+		<li>- zapalenie mieszków włosowych</li>
+	</ul>
+
+	Działanie zabiegu: 
+	<ul>
+		<li>- odmłodzona, wygładzona</li>
+		<li>- napięta, zregenerowana</li>
+		<li>- ujednolicony koloryt skóry </li>
+		<li>- wyciszone stany zapalne</li>
+		<li>- zwiększona bariera ochronna skóry</li>
+	</ul>
+
+	Częstotliwość zabiegów: 
+	<br />
+	Jako kuracja: 8-12 zabiegów
+	Jednorazowo: 1-2 razy w miesiącu 
+	<br />
+	Zabieg wykonuje się przez cały rok bez ograniczeń na porę roku (również w okresie letnim)
+	<h4>
+		ZABIEG DLA CERY TRĄDZIKOWEJ
+	</h4>
+	Wskazania do zabiegu: 
+	<ul>
+		<li>- skóra z problemem słabego i umiarkowanego trądziku pospolitego</li>
+		<li>- trądzik różowaty</li>
+		<li>- zapalenie mieszków włosowych</li>
+		<li>- stany zapalne skóry</li>
+	</ul>
+
+	Działanie zabiegu: 
+	<ul>
+		<li>- działa antybakteryjnie, wyciszająco</li>
+		<li>- oczyszcza skórę z zaskórników</li>
+		<li>- normalizuje stany zapalne</li>
+	</ul>
+
+	Częstotliwość zabiegów: 
+	<br />
+	Jako kuracja: 10 zabiegów
+	<h4> ZABIEG DLA SKÓRY Z TENDENCJĄ DO PRZEBARWIEŃ </h4>
+	Wskazania do zabiegu: 
+	<ul>
+		<li>- nieregularne przebarwienia powierzchniowe</li>
+		<li>- rewitalizacja komórek</li>
+		<li>- zanik napięcia i elastyczności</li>
+	</ul>
+
+Działanie zabiegu: 
+<ul>
+	<li>- skóra odmłodzona, nawilżona </li>
+	<li>- wygładzona, zregenerowana</li>
+	<li>- rozjaśnia już istniejące przebarwienia </li>
+	<li>- zapobiega powstawaniu nowych dyschromii</li>
+	<li>- zwiększa barierę ochronną</li>
+</ul>
+
+Częstotliwość zabiegów: 
+<br />
+Jako kuracja: 8-12 zabiegów
+Jednorazowo: 1-2 razy w miesiącu 
+<br />
+Zabieg wykonuje się przez cały rok bez ograniczeń na porę roku (również w okresie letnim)
+
+<h2>
+	ZABIEGI APARATUROWE:
+	<br />
+	ULTRADŹWIĘKI- PEELING KAWITACYJNY I SONOFOREZA
+</h2>
+Ultradźwięki to fala sprężysta o częstotliwości znajdującej się powyżej górnej granicy słuchu człowieka, przekraczającej 20 000 Hz. Technologia ta została wypromowana i spopularyzowana w kosmetyce w latach 80- tych XX wieku. 
+
+PEELING KAWITACYJNY
+Ultradźwięki stanowią coraz bardziej popularną metodę oczyszczania skóry zwaną peelingiem kawitacyjnym. Fala ultradźwiękowa w obecności cieczy (toniku) tworzy pęcherzyki wypełnione rozrzedzonym powietrzem, które powiększają się i gwałtownie pękają. Pod wpływem ciepła i podwyższonego ciśnienia dochodzi do bardzo dokładnego i zupełnie bezbolesnego oczyszczania skóry z zalegającej warstwy zrogowaciałego naskórka, toksyn oraz wydzielin gruczołów łojowych. Metoda ta nie wymaga rozgrzewania, dlatego można stosować ja w przypadku pielęgnacji skór naczyniowych i wrażliwych. Peeling doskonale przygotowuje skórę do dalszych zabiegów pielęgnacyjnych znacznie podnosząc absorpcję aplikowanych kosmetyków. 
+SONOFOREZA
+Podstawowym efektem działania ultradźwięków na tkanki jest działanie mechaniczne zwane mikromasażem a spowodowane wahaniem ciśnień w przebiegu fali ultradźwiękowej. Drgania małej mocy i częstotliwości emitowane przez specjalne głowice, którymi masuje się skórę pokrytą odpowiednim żelem sprzęgającym (sonoforeza). Dzięki tym drganiom w skórze i tkance podskórnej cząsteczki wibrują i rozgrzewają się, rozszerzają się naczynka krwionośne, wzrasta zaopatrzenie komórek w krew a wraz z nią w tlen i składniki odżywcze. Zwiększa się przepuszczalność błon komórkowych, co wykorzystuje się do wprowadzania substancji aktywnych z preparatów kosmetycznych. 
+Wskazania:
+trądzik zaskórnikowy
+skóra zanieczyszczona- oczyszczanie
+zmarszczki i bruzdy
+szary koloryt skóry
+przebarwienia
+skóra wymagająca regeneracji
+skóra niedotleniona
+obrzęki i opuchlizna wokół oczu
+cellulit
+brak jędrności skóry- ujędrnianie
+Przeciwwskazania:
+Choroby serca
+ Epilepsja
+Gruźlica
+ Stwardnienie rozsiane
+ Nowotwory i stany po ich operacyjnym usunięciu
+ Gruźlica
+Skazy krwotoczne
+ Zaburzenia rytmu serca
+Stany gorączkowe
+Ciąża
+Niewydolność krążenia
+Zakrzepowe zapalenie żył
+Niezakończony wzrost kostny (dzieci)
+Zakażenia wirusowe, bakteryjne i grzybicze
+Obecność w tkankach ciał obcych metalicznych (rozrusznik serca, aparat na zęby, itp.)
+Nerwica wegetatywna znacznego stopnia
+Osteoporoza
+Zabieg sonoforezy i peelingu kawitacyjnego można wykonywać samodzielnie jako pojedynczy zabieg pielęgnacyjny, w połączeniu z innymi zabiegami np. mikrodermabrazja z sonoforezą lub peeling kawitacyjny z mezoterapią. 
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 6 – 12 zabiegów w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serię zabiegów co 6 – 12 miesięcy.
+
+MIKRODERMABRAZJA DIAMENTOWA
+Mikrodermabrazja diamentowa jest to w pełni bezpieczny i skuteczny rodzaj peelingu mechanicznego. Stanowi alternatywę dla peelingów chemicznych i zabiegów medycyny estetycznej.
+ Zabieg polega na mechanicznym usuwaniu warstwy rogowej naskórka, aż do pożądanego poziomu. 
+Bezpośrednio po mikrodermabrazji odczuwamy poprawę napięcia, spłycenie zmarszczek, rozjaśnienie i rozświetlenie skóry, blizny i plamy stają się mniej widoczne. Bardzo istotne jest długofalowe działanie zabiegu, gdyż inicjuje on zmiany w skórze właściwej. Stymulacja syntezy kolagenu i elastyny korzystnie wpływa na gęstość, jędrność i kondycję skóry.  
+Mikrodermabrazja diamentowa stanowi doskonałe przygotowanie do absorbcji substancji aktywnych, dlatego można ją wykonywać przed każdym zabiegiem pielęgnacyjnym.  Jest to jeden z najczęściej wykonywanych zabiegów w naszym salonie. 
+Zalety mikrodermabrazji:
+- metoda bezbolesna, nie wymaga rekonwalescencji
+-bezpieczna, kontrolowana głębokość ścierania
+-alternatywa dla osób nietolerujących peelingu chemicznego
+-możliwość wykonania zabiegu kosmetycznego osobom z przeciwwskazaniami do zabiegów z wykorzystaniem prądów i ultradźwięków
+-zwiększenie absorpcji substancji aktywnych aplikowanych na skórę
+-mikromasaż stymulacja krążenia
+-możliwość doboru podciśnienia do skóry wrażliwej
+Zalecenia do zabiegu mikrodermabrazji:
+-trądzik zaskórnikowy
+-zmarszczki i bruzdy
+-blizny potrądzikowe
+-wiotkość skóry
+-łojotok
+-blizny zanikowe i przerosłe
+-rozszerzone pory
+-rozstępy
+-przebarwienia
+-rogowacenie okołomieszkowe
+-uszkodzenia posłoneczne skóry
+-szorstki, zrogowaciały naskórek
+-odmłodzenie skóry
+-przygotowanie skóry do zabiegów laserowych, mezoterapii, zabiegów chirurgii plastycznej
+Przeciwwskazania do zabiegu mikrodermabrazji:
+-zakażenia wirusowe, grzybicze, bakteryjne skóry
+-ropny trądzik
+-trądzik różowaty
+-przerwana ciągłość naskórka
+-nowotwory, naczyniaki
+- skłonność do tworzenia się bliznowców
+-terapia przeciwtrądzikowa retinoidami (6 miesięcy przerwy po zakończeniu kuracji)
+
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 6 – 12  w odstępach 7 – 14 dni. W celu podtrzymania uzyskanych efektów należy powtarzać pojedynczy zabieg raz w miesiącu lub ponownie serię zabiegów co 6 – 12 miesięcy.
+FALE RADIOWE- RADIOFREKWENCJA- LIFTING
+Radiofrekwencja to najnowocześniejsza metoda bezoperacyjnego modelowania sylwetki i lifting skóry twarzy. Zabiegi wykonywane są przy pomocy głowicy, która emituje fale radiowe zamieniane w ciepło zwiększając przepływ krwi. Następuje obkurczanie i reorganizacja włókien kolagenu oraz wzrasta synteza nowego kolagenu. Dzięki technologii fal radiowych uzyskujemy wzrost napięcia tkanki łącznej oraz wzmożony przepływ płynu obrzękowego tkanki tłuszczowej.
+
+Efekty zabiegu :
+Pielęgnacja skóry- Efekt cieplny w głębokich warstwach skóry stymuluje odnowę struktury włókien kolagenowych. Po zabiegu skóra jest bardziej napięta, miękka i odmłodzona, poprawia się owal twarzy.
+Redukcja zmarszczek wokół oczu i na czole. Odmładzanie skóry.
+Utrata wagi. Wyszczuplanie i kształtowanie sylwetki.  Komórki tłuszczowe zostają rozbite, skurczone, a następnie uwolnione. Jednocześnie usuwane są toksyny, poprawiane krążenie krwi i wzmacnia się metabolizm komórkowy.
+Poprawa napięcia skóry brzucha. Kształtowanie sylwetki po porodzie. Wyszczuplanie i kształtowanie sylwetki. Redukcja tkanki tłuszczowej.
+Łagodzenie bólu mięśni, stawów.
+
+
+Zalety zabiegu:
+
+Zabieg nie chirurgiczny,
+Nie wymaga zastrzyków,
+Nie powoduje krwawienia,
+Jest bezbolesny,
+Nie prowadzi do powstania ran,
+Nie powoduje blizn,
+Skraca czas leczenia
+Nie wymaga izolacji po zabiegu
+Daje szybkie efekty
+Efekt jest długotrwały
+
+Wskazania:
+-lifting twarzy
+-lifting okolic oczu
+-lifting szyi
+-poprawa kondycji zwiotczałej skóry
+-usuwanie widoczności zmarszczek na czole
+-poprawa napięcia skóry brzucha
+-poprawa konturów pośladków i ud
+-pielęgnacja dłoni
+Przeciwwskazania: 
+  Rozrusznik serca 
+  Nowotwory i stany po leczeniu jonizującym (do 5 lat po zakończonym leczeniu)
+  Ostre stany zapalne
+  Zaburzenia czucia
+  Zaburzenia ukrwienia obwodowego
+  Gruźlica
+  Ciąża
+  Karmienie piersią
+  Skłonność do krwawień z przewodu pokarmowego 
+  Zaćma
+  Metalowe implanty w okolicy zabiegowej
+ Zalecana ostrożność w przypadku zaburzeń hormonalnych (cukrzyca, nadczynność tarczycy) oraz nadciśnienia 
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. 
+Czas trwania zabiegu: 20- 40 minut w zależności od powierzchni poddanej zabiegowi.
+
+MEZOTERAPIA MIKROIGŁOWA FRAKCYJNA
+Mezoterapia mikroigłowa frakcyjna to skuteczna technika zabiegowa polegająca na frakcjonowanie (nakłuwanie) skóry mikroigłami. Dzięki temu powstają w naskórku „mikrotunele”, które pozostając otwarte przez krótką chwilę, dają możliwości głębokiego wprowadzenia wybranych preparatów o właściwościach określonych przez potrzeby skóry. Poza tym mikro nakłuwanie powoduje powstawanie mini mikro urazów, które prowokują skórę do reakcji naprawczych, będących podstawą odnowy tkanek.
+Działanie mezoterapii mikroigłowej:
+Stymulacja naskórka (intensywna, ale ściśle kontrolowana)
+Natychmiastowy i optymalny transport aktywnych substancji w głąb skóry
+Reaktywacja wszystkich funkcji skóry
+Polepszenie procesów samo naprawczych skóry
+Regeneracja
+Stymulacja produkcji kolagenu i elastyny 
+Zastosowanie:
+Mezoterapia mikroigłowa frakcyjna polecana jest do wielu różnorodnych problemów kosmetyczno - medycznych. W Małym Zielonym SPA posiadamy nowoczesne urządzenie do mezoterapii TRI- M, stosujemy wysokiej jakości ampułki. Jednorazowe kartridże zabiegowe są w pełni higieniczne i bezpieczne dla pacjentów. 
+Oto zabiegi, które możemy wykonać tą niezwykłą metodą frakcjonowania skóry:
+MICRO NEEDLE IN HYDRA - zabieg nawilżenia skóry
+MICRO NEEDLE IN-REGEN - zabieg odmładzania, regeneracji, likwidacji zmarszczek
+MICRO NEEDLE IN-LIFT - zabieg ujędrniający skórę : twarzy, podbródka, brzucha, wewnętrznych stron ramion, wewnętrznych stron ud. To intensywny lifting zwiotczałej skóry !
+MICRO NEEDLE IN-WHITE – zabieg usuwający przebarwienia, rozświetlający skórę.
+MICRO NEEDLE IN-CELL - zabieg spłycający na cellulit
+MICRO NEEDLE IN-LIPO - zabieg likwidujący na nadmiar tkanki tłuszczowej
+MICRO NEEDLE IN ANTI-STRETCH- zabieg spłycający na blizny i rozstępy 
+Efekty po zabiegu:
+Redukcja zmarszczek
+Zwiększenie elastyczności skóry
+Odmłodzenie i rozświetlenie skóry
+Wzmocnienie odporności tkanki łącznej
+Poprawa owalu twarzy
+Zmniejszenie blizn i rozstępów
+Zmniejszenie cellulitu i nadmiaru tkanki tłuszczowej 
+Mezoterapia mikroigłowa frakcyjna to zabieg całkowicie bezpieczny dla pacjenta. Nie ogranicza jego codziennej aktywności. TRI – M to wyjątkowa technologia, która pomaga usunąć wszelkie oznaki starzenia i zapewnić przy tym maksymalny komfort.
+Czas trwania zabiegu mezoterapii: od 5- 25 minut w zależności od powierzchni skóry poddanej zabiegowi i ilości przejść frakcyjnych. Po zabiegu na twarz nakładana jest maska algowa lub płat kolagenowy.
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 12  w odstępach 7 – 14 dni.
+DO ZAKŁADKI CIAŁO:
+ENDERMOMASAŻ- MASAŻ PODCIŚNIENIOWY
+Endermomasaż - jest to połączenie masażu mechanicznego z podciśnieniem z jednoczesnym odciągnięciem fałdy skóry (zassanie) i rolowaniem ruchomymi
+rolkami.
+W wyniku zabiegu następuje likwidacja lub znaczne zmniejszenie cellulitu poprzez rozbicie komórek tłuszczowych oraz w sposób widoczny redukcja obwodu ciała.
+Masaż wykonuje się szczególnie w miejscach objętych cellulitem, najczęściej w okolicy ud, brzucha i pośladków. 
+Zabiegi są całkowicie nieinwazyjne i bezpieczne, wspomagają naturalne procesy zachodzące w organizmie, a także stymulują wytwarzanie endorfin, czyli "hormonów szczęścia", przynosząc relaks i odprężenie. 
+Zabieg ten prowadzi do zwiększenia jędrności i elastyczności skóry, a efekty widać już po pierwszym zabiegu: skóra jest widocznie zrewitalizowana, bardziej jędrna i gładka.
+
+EFEKT ZABIEGOWY:
+-„redukcja” cellulitu (zmniejszenie jego widoczności)
+-ujędrnienie skóry
+-wysmuklenie sylwetki, wymodelowanie
+-odmłodzenie naskórka
+-zabiegi te mają charakter relaksujący i doskonale niwelują stres
+-przywrócenie prawidłowego metabolizmu
+-pobudzenie transportu komórkowego
+-zmniejszenie retencji wody poprzez uaktywnienie układu żylnego i limfatycznego
+-eliminacja toksyn
+-zwiększenie produkcji kolagenu i elastyny
+-zmniejszenie objętości głęboko położonych warstw tłuszczu
+-odmłodzenie twarzy dzięki zwiększeniu miejscowego mikrokrążenia
+-endermologia to również metoda do wspomagania
+terapii blizn, oparzeń, obrzęków, zwłóknień, bóli kręgosłupa, zapalenia ścięgien czy urazów stawów
+Zalety masażu próżniowego (endermomasażu)
+Nieinwazyjność- Zabiegi są całkowicie nieinwazyjne,
+wspomagają jedynie naturalne procesy zachodzące w organizmie
+U wielu osób po 15-20 zabiegach efekty są
+porównywalne do efektów chirurgicznej liposukcji.
+Endermologię uważa się na świecie za zabieg numer jeden w zwalczaniu cellulitu i nadmiaru tkanki tłuszczowej!
+
+Endermomasaż- WSPOMAGAJĄCY WPŁYW PODCZAS TERAPII
+WYWIERAJĄ:
+zdrowe odżywianie,
+aktywność ruchowa
+oraz w celu uzyskania pełnego efektu drenującego wypijanie ok. 2,5 l wody dziennie.
+
+WSKAZANIA do wykonania endermomasażu:
+
+-zmniejszenie widoczności cellulitu
+- ujędrnianie skóry
+-modelowanie sylwetki
+-pobudzenie fibroblastów do zwiększonej produkcji
+kolagenu i elastyny
+- pobudzanie krążenia
+- łagodzenie bólu
+-wspomaganie leczenia blizn, oparzeń, obrzęków
+-terapia uszkodzeń mięśni, ścięgien, więzadeł
+- bóle kręgosłupa 
+-normalizacja napięcia mięśniowego
+
+Czas trwania zabiegu:
+20- 40 min w zależności od partii ciała poddanej zabiegowi
+Zabiegi wykonuje się w serii 10- 15 zabiegów, 2- 3 razy w tygodniu. Następnie 1 zabieg w miesiącu dla podtrzymania efektów lub powtórzenie serii. 
+RADIOFREKWENCJA- FALE RADIOWE:
+Radiofrekwencja to najnowocześniejsza metoda bezoperacyjnego modelowania sylwetki i lifting skóry twarzy. Zabiegi wykonywane są przy pomocy głowicy, która emituje fale radiowe zamieniane w ciepło zwiększając przepływ krwi. Następuje obkurczanie i reorganizacja włókien kolagenu oraz wzrasta synteza nowego kolagenu. Dzięki technologii fal radiowych uzyskujemy wzrost napięcia tkanki łącznej oraz wzmożony przepływ płynu obrzękowego tkanki tłuszczowej.
+
+Efekty zabiegu :
+Pielęgnacja skóry- Efekt cieplny w głębokich warstwach skóry stymuluje odnowę struktury włókien kolagenowych. Po zabiegu skóra jest bardziej napięta, miękka i odmłodzona, poprawia się owal twarzy.
+Redukcja zmarszczek wokół oczu i na czole. Odmładzanie skóry.
+Utrata wagi. Wyszczuplanie i kształtowanie sylwetki.  Komórki tłuszczowe zostają rozbite, skurczone, a następnie uwolnione. Jednocześnie usuwane są toksyny, poprawiane krążenie krwi i wzmacnia się metabolizm komórkowy.
+Poprawa napięcia skóry brzucha. Kształtowanie sylwetki po porodzie. Wyszczuplanie i kształtowanie sylwetki. Redukcja tkanki tłuszczowej.
+Łagodzenie bólu mięśni, stawów.
+
+
+Zalety zabiegu:
+
+Zabieg nie chirurgiczny,
+Nie wymaga zastrzyków,
+Nie powoduje krwawienia,
+Jest bezbolesny,
+Nie prowadzi do powstania ran,
+Nie powoduje blizn,
+Skraca czas leczenia
+Nie wymaga izolacji po zabiegu
+Daje szybkie efekty
+Efekt jest długotrwały
+
+Wskazania:
+-lifting twarzy
+-lifting okolic oczu
+-lifting szyi
+-poprawa kondycji zwiotczałej skóry
+-usuwanie widoczności zmarszczek na czole
+-poprawa napięcia skóry brzucha
+-poprawa konturów pośladków i ud
+-pielęgnacja dłoni
+Przeciwwskazania: 
+  Rozrusznik serca 
+  Nowotwory i stany po leczeniu jonizującym (do 5 lat po zakończonym leczeniu)
+  Ostre stany zapalne
+  Zaburzenia czucia
+  Zaburzenia ukrwienia obwodowego
+  Gruźlica
+  Ciąża
+  Karmienie piersią
+  Skłonność do krwawień z przewodu pokarmowego 
+  Zaćma
+  Metalowe implanty w okolicy zabiegowej
+ Zalecana ostrożność w przypadku zaburzeń hormonalnych (cukrzyca, nadczynność tarczycy) oraz nadciśnienia 
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 10 zabiegów w odstępach 7 – 14 dni. 
+Czas trwania zabiegu: 20- 40 minut w zależności od powierzchni poddanej zabiegowi.
+
+
+MEZOTERAPIA MIKROIGŁOWA FRAKCYJNA
+Mezoterapia mikroigłowa frakcyjna to skuteczna technika zabiegowa polegająca na frakcjonowanie (nakłuwanie) skóry mikroigłami. Dzięki temu powstają w naskórku „mikrotunele”, które pozostając otwarte przez krótką chwilę, dają możliwości głębokiego wprowadzenia wybranych preparatów o właściwościach określonych przez potrzeby skóry. Poza tym mikro nakłuwanie powoduje powstawanie mini mikro urazów, które prowokują skórę do reakcji naprawczych, będących podstawą odnowy tkanek.
+Działanie mezoterapii mikroigłowej:
+Stymulacja naskórka (intensywna, ale ściśle kontrolowana)
+Natychmiastowy i optymalny transport aktywnych substancji w głąb skóry
+Reaktywacja wszystkich funkcji skóry
+Polepszenie procesów samo naprawczych skóry
+Regeneracja
+Stymulacja produkcji kolagenu i elastyny 
+Zastosowanie:
+Mezoterapia mikroigłowa frakcyjna polecana jest do wielu różnorodnych problemów kosmetyczno - medycznych. W Małym Zielonym SPA posiadamy nowoczesne urządzenie do mezoterapii TRI- M, stosujemy wysokiej jakości ampułki. Jednorazowe kartridże zabiegowe są w pełni higieniczne i bezpieczne dla pacjentów. 
+Oto zabiegi, które możemy wykonać tą niezwykłą metodą frakcjonowania skóry:
+MICRO NEEDLE IN HYDRA - zabieg nawilżenia skóry
+MICRO NEEDLE IN-REGEN - zabieg odmładzania, regeneracji, likwidacji zmarszczek
+MICRO NEEDLE IN-LIFT - zabieg ujędrniający skórę : twarzy, podbródka, brzucha, wewnętrznych stron ramion, wewnętrznych stron ud. To intensywny lifting zwiotczałej skóry !
+MICRO NEEDLE IN-WHITE – zabieg usuwający przebarwienia, rozświetlający skórę.
+MICRO NEEDLE IN-CELL - zabieg spłycający na cellulit
+MICRO NEEDLE IN-LIPO - zabieg likwidujący na nadmiar tkanki tłuszczowej
+MICRO NEEDLE IN ANTI-STRETCH- zabieg spłycający na blizny i rozstępy 
+Efekty po zabiegu:
+Redukcja zmarszczek
+Zwiększenie elastyczności skóry
+Odmłodzenie i rozświetlenie skóry
+Wzmocnienie odporności tkanki łącznej
+Poprawa owalu twarzy
+Zmniejszenie blizn i rozstępów
+Zmniejszenie cellulitu i nadmiaru tkanki tłuszczowej 
+Mezoterapia mikroigłowa frakcyjna to zabieg całkowicie bezpieczny dla pacjenta. Nie ogranicza jego codziennej aktywności. TRI – M to wyjątkowa technologia, która pomaga usunąć wszelkie oznaki starzenia i zapewnić przy tym maksymalny komfort.
+Czas trwania zabiegu mezoterapii: od 5- 25 minut w zależności od powierzchni skóry poddanej zabiegowi i ilości przejść frakcyjnych. Po zabiegu na twarz nakładana jest maska algowa lub płat kolagenowy.
+W celu uzyskania długotrwałych efektów zabiegi wykonuje się w serii od 5 – 12  w odstępach 7 – 14 dni.
+
+MANUALNY ZABIEG SAMOOPALAJĄCY- FAKE BAKE
+Jak długo utrzymuje się opalenizna?
+
+Opalenizna rozwija się przez 6-8 godzin od nałożenia preparatu i utrzymuje się od 7-10 dni w zależności od tego jak jest pielęgnowana skóra.
+
+Przyszłym pannom młodym zalecamy profesjonalne zabiegi opalające na co najmniej 2 dni przed ślubem
+
+Jak przeprowadzany jest zabieg Fake Bake?
+
+Aplikację samoopalacza poprzedza złuszczanie i nawilżanie skóry. Po przygotowaniu i oczyszczeniu następuje nałożenie preparatu brązującego. Podczas peelingu można zastosować specjalne techniki masażu dodatkowo zwiększając standard zabiegu. 
+
+Dla kogo?
+
+Zabieg ten przeznaczony jest dla osób pragnących zwolnić tempo, zrelaksować i dać się ponieść pozytywnym doznaniom. Odpowiedni dla kobiet i mężczyzn.
+Jest to najbardziej ekskluzywna forma opalania dostępna w salonie. 
+
+Jak działają samoopalacze firmy Fake Bake?
+Wyjątkowa formuła preparatów samoopalających Fake Bake zawiera najlepsze naturalne składniki brązujące: DHA, Erytrulozę oraz DMI. 
+
+Najwyższej jakości DHA w połączeniu ze zwiększającym jego wchłanianie DMI reaguje z aminokwasami powierzchownej warstwy naskórka (warstwa rogowaciejąca), przekształcając się w opaleniznę idealnie dopasowaną do naturalnego odcienia skóry. 
+
+Erytruloza rozwija opaleniznę wolniej, przez co efekt utrzymuje się dłużej. 
+
+W tym połączeniu składniki zapewniają naturalnie wyglądającą opaleniznę, minimalizując ryzyko powstawania smug i przebarwień. Dzięki nim opalenizna blednie powoli i równomiernie, zachowując naturalny wygląd przez cały czas.
+TO CO BYŁO WYRZUCIĆ Z TEJ ZAKŁADKI CIAŁO I WSTAWIĆ TO CO POWYŻEJ.
+
+D
+</div>
 <!-- sidebar -->
 			<div class="col-md-3 col-xs-6">
 				<a href="kontakt.html">
@@ -175,24 +564,28 @@
 <!-- /sidebar -->
 		</div><!--row-->
 	</div> <!-- /container -->
-<!-- foot -->
 	<footer class="container-fluid">
 		<p class="text-center">
-			home | 
 			<!-- aktualności  -->
-			<a href="onas.html">o nas | </a> 
-			oferta  |
-			<a href="galeria.html">galeria |</a> 
-			<a href="cennik.html">cennik  </a>
+<a href="index.html">Home |</a>
+			<a href="onas.html">O nas | </a> 
+			<a href="kbs.html">Komputerowe badanie skóry |</a>
+			<a href="oczy.html">Oczy |</a>
+			<a href="twarz.html">Twarz |</a>
+			<a href="Manicure.html">Manicure |</a>
+			<a href="Pedicure.html">Pedicure |</a>
+			<a href="masaz.html">Masaż |</a>
+			<a href="depilacja.html">Depilacja |</a>
+			<a href="galeria.html">Galeria |</a> 
+			<a href="cennik.html">Cennik |</a>
 			<!-- newsletter  --> 
 			<!-- program referencyjny  --> 
 			<!-- program lojalnościowy  --> 
 			<!-- promocje  --> 
-			<!-- last minute  -->| 
-			kontakt
+			<!-- last minute  --> 
+			<a href="kontakt.html"> Kontakt </a>
 		</p>
 	</footer>
-<!-- /foot -->
 	<!-- Bootstrap core JavaScript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
@@ -200,3 +593,158 @@
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+<!-- 
+
+ODAĆ KOLEJNĄ ZAKŁADKĘ  (A W TYCH OBRAZKACH TO MOŻE SIĘ WYŚWIETLAĆ PRZY „CIAŁO”)
+
+MANICURE i PEDICURE
+W Małym Zielonym SPA wykonujemy manicure i pedicure klasyczny, hybrydowy Shellac CND, japoński, french wrap manicure oraz pedicure z kwasami. 
+MANICURE I PEDICURE KLASYCZNY
+Manicure klasyczny- opiłowanie paznokci, odsunięcie (wycięcie) skórek, malowanie paznokci.
+Pedicure klasyczny przy użyciu frezarki- usunięcie martwego naskórka ze stóp, opracowanie paznokci poprzez odsunięcie skórek, opiłowanie paznokci i malowanie.
+MANICURE I PEDICURE HYBRYDOWY SHELLAC CND
+Manicure i pedicure hybrydowy polega na aplikacji specjalnych preparatów, które utwardzane są w lampie UV. 
+Na czym polega wyjątkowość zabiegów SHELLAC?
+
+-zapewnia nieskazitelny wygląd paznokci przez 14 dni (do momentu osiągnięcia wyraźnego odrostu)
+
+-zabieg jest więc idealnym rozwiązaniem na urlop czy dłuższy wyjazd, można też bez obaw wykonać go na kilka dni przed ważną uroczystością
+
+-paznokcie są ładnie uwypuklone, mocne i elastyczne, stylizacja nie powinna ulec zdrapaniu czy odpryśnięciu w czasie wykonywanie codziennych czynności (prace domowe, praca przy komputerze, chodzenie w odkrytych pantoflach)
+
+-paznokcie zachowują intensywny kolor lakieru, są błyszczące niczym lustrzana tafla i nie matowieją
+
+-paznokcie wyglądają bardzo elegancko i efektownie
+
+-produkty użyte do zabiegu są bezzapachowe, co ma duże znaczenie dla Pań, które nie tolerują charakterystycznego zapachu akrylu
+
+-produkty użyte do zabiegu są hipoalergiczne i posiadają tzw. formułę 3-Free, są wolne od: formaldehydu, toluenu i DBP, bez obaw mogą być zatem stosowane u osób z alergią
+
+-z zabiegu mogą śmiało korzystać przyszłe mamy, gdyż produkty nałożone na płytkę nie przenikają do organizmu
+
+-tuż po zabiegu paznokcie są od razu suche i gotowe do wyjścia, lakier nie ulegnie więc rozmazaniu
+MANICURE I PEDICURE JAPOŃSKI
+
+Manicure  japoński - jego korzenie sięgają podstaw naturalnej pielęgnacji wywodzącej się z Japonii. Celem zabiegu jest odżywienie, regeneracja i wzmocnienie słabych, rozdwajających się i łamliwych paznokci. Manicure japoński opiera się wyłącznie na naturalnych składnikach, którymi są:
+
+pyłek pszczeli
+witamina A i E
+krzemionka z morza japońskiego
+
+Powyższe składniki, które zostają wmasowane w płytkę paznokcia nie tylko nawilżają, ale także sprawiają, że paznokcie wyglądają niesamowicie zdrowo!
+
+Wskazania:
+
+paznokcie zniszczone (np. detergentami)
+paznokcie suche i matowe
+paznokcie o nierównej płytce paznokcia
+kruche i łamliwe paznokcie
+paznokcie rozdwajające się
+FRENCH WRAP MANICURE- FRANCUSKI MANICURE
+French Wrap Manicure - trwała i błyskawiczna metoda french manicure bez żelu i bez lampy.
+
+French Wrap Manicure to nowa propozycja marki Dashing Diva, skierowana do osób, które cenią sobie naturalny manicure i nie lubią stylizacji żelowej.
+
+System French Wrap Manicure służy to wykonywania stylizacji french za pomocą gotowych końcówek french wrap plus oraz preparatów, które mają konsystencję lakieru do paznokci i wysychają na płytce, bez użycia lampy UV. 
+
+Atutem tej metody jest bezinwazyjność, szybkość wykonania, oraz trwałość- nawet do 14 dni!
+PEDICURE Z KWASAMI- CALLUS PEEL
+Jest to innowacyjny, 4 etapowy zabieg, w którym stosowane są specjalne plastry nasączone kwasami.
+
+Wykonany przy użyciu CALLUS PEEL pedicure ma nie tylko właściwości upiększające , ale także lecznicze. Pozwala łatwo i bezboleśnie usunąć zrogowaciały naskórek, eliminuje dolegliwości związane z popękaną skórą stóp, sprawia, że nawet przesuszona skóra pięt staje się miękka!!!
+Zabiegi wykonujemy przy użyciu najwyższej jakości kosmetyków naturalnych, stosujemy jednorazowe materiały, natomiast narzędzia wielokrotnego użytku dezynfekujemy, a następnie sterylizujemy w AUTOKLAWIE dzięki czemu, nasi pacjenci mają zapewnioną higienę i bezpieczeństwo wykonywanych u nas zabiegów.
+
+KOLEJNA ZAKŁADKA:
+DEPILACJA
+Skład Pasty Cukrowej jest w 100% naturalny. Tworzą ją odpowiednie proporcje trzech podstawowych składników: cukru, wody i soku cytrynowego. 
+Bez konserwantów i sztucznych barwników. 
+
+Przewaga słodkiej depilacji cukrowej 
+
+jest 100% naturalna
+
+depilacja cukrowa jest mniej bolesna niż woskowanie
+
+przykleja się tylko do włosków, a nie do skóry
+
+nie powoduje podrażnień (wrastania włosków, zapalenia mieszka włosowego)
+
+nie łamie i nie urywa włosków, ponieważ włoski usuwane są wraz z kierunkiem wzrostu
+
+pasta jest chłodna, nie ma więc ryzyka poparzenia skóry
+
+nadaje się dla alergików i osób z wrażliwą skórą
+
+idealna dla kobiet w ciąży
+
+można ją stosować w przypadku skóry naczyniowej oraz żylaków
+
+można stosować w przypadku łuszczycy i egzemy
+
+nadaje się do wszystkich rodzajów włosków
+
+podczas zabiegu nie używamy dodatkowych narzędzi, co zwiększa higieniczność zabiegu
+
+usuwa martwe komórki skóry, pozostawiając ją miękką i gładką
+EPILFREE- TRWAŁA DEPILACJA 
+EPILFREE to system trwałej redukcji owłosienia oparty na naturalnych składnikach roślinnych. Głównym aktywnym składnikiem jest naturalny wyciąg z jaskółczego ziela, który hamuje podział komórek spowalniając tym samym odrost włosów. Dodatkowo w składzie EpilFree znajdują się wyciągi z rozmarynu i eukaliptusa, które mają właściwości odżywcze oraz wyciągi z rabarbaru i lukrecji działające łagodząco.
+
+System EpilFree jest skuteczny, bezpieczny i nie powoduje efektów ubocznych (zatwierdzony przez Ministerstwo Zdrowia). Ma zastosowanie przy każdym rodzaju i kolorze włosa, przy każdym typie skóry oraz o każdej porze roku.
+
+Efekt serii zabiegów: do 80% zahamowania wzrostu włosa i redukcji.
+
+Depilacja z EpilFree przebiega w dwóch etapach. Najpierw włosy są usuwane przy pomocy pasty cukrowej lub wosku. Następnie aplikowany jest Aktywator, który dezynfekuje i rozszerza pory, a po ok. 5 min. Toner, który powoduje zmniejszenie podziału komórek włosa.
+
+Przez 6h po zabiegu:
+- należy unikać kontaktu z wodą okolicy poddanej zabiegowi;
+- należy unikać aktywności fizycznej i pocenia się;
+- nie wolno nakładać kremów, balsamów, olejków i makijażu.
+
+Woda i pot mogą zmyć filtr polimerowy, który zabezpiecza aktywne składniki preparatu w skórze. W ciągu 24 godzin po zabiegu nie powinno się opalać.
+
+KOLEJNA ZAKŁADKA 
+
+MASAŻ
+Masaż klasyczny -
+w zależności od formy i intensywności może mieć charakter leczniczy, relaksacyjny lub pobudzający. Wpływa na cały organizm, na układ ruchu, skórę, tkanki, nerwy, układ krwionośny.
+
+Masaż limfatyczny -
+poprzez zastosowanie odpowiednich technik umożliwia się usprawnienie krążenia limfy i płynów tkankowych. zapobiega i leczy choroby związane z zastojem limfy oraz likwiduje różnego typu obrzęki.
+
+Masaż relaksacyjny -
+jego celem jest zniesienie napięcia mięśniowo - nerwowego i emocjonalnego, a tym samym uzyskanie pełnego rozluźnienia i odprężenia
+
+Masaż antycellulitowy -
+rozbija grudki tłuszczu, pobudza bieg limfy, ujędrnia i napina skórę. Daje efekt wygładzenia pomarańczowej skórki.
+
+
+Masaż całego ciała z peelingiem -
+masaż ciała połączony z peelingiem - oczyszcza i wygładza skórę, pobudza mikrocyrkulację, wzmacnia i ujędrnia, a także pozostawia skórę jedwabiście gładką.
+
+Masaż twarzy -
+odprężający i odmładzający. Ujędrnia skórę, wygładza drobne zmarszczki i poprawia koloryt cery.
+
+Masaż wykonywany jest przez dyplomowanego fizjoterapeutę. Przed wykonanie masażu przeprowadzana jest konsultacja z pacjentem w celu zdiagnozowania problemów i wykluczeniu ewentualnych przeciwwskazań.
+KINESIOLOGY TAPING
+
+Jest to jedna z nowszych terapii stosowanych w rehabilitacji. Polega ona na aplikacji na ciele specjalistycznego, elastycznego plastra, który oddziałuje sensorycznie na organizm. W zależności od sposobu aplikacji plaster może mieć różnorakie działanie - przeciwbólowe, przeciwobrzękowe, normalizujące napięcie mięśniowe i powięziowe, korygujące w przypadku występowania nierównowagi mięśniowej.
+
+Wskazania:
+
+bóle kręgosłupa
+bóle stawów kolanowych
+bóle barku
+zapalenie pochewek ścięgnistych
+bolesność okolic przyczepów mięśni
+stan po skręceniach i zwichnięciach stawów
+dolegliwości ze strony ścięgna Achillesa
+obrzęki
+uszkodzenia mięśni, więzadeł, niestabilność stawów
+poprawa propriocepcji
+blizny, krwiaki
+
+W kontakcie po inż. Powinna być kropka!
+Gdzie są aktualności? Gdzie są promocje?
+Gdzie jest system referencyjny czy tam lojalnościowy? 
+Wszystko ma wyglądać schludnie i ładnie jak to wklejasz to sprawdzaj co wklejasz i w którym miejscu… ujednolić to, nagłówki żeby były uwypuklone poprzez pogrubienie lub podkreślenie itd., żeby to się jakoś czytało 
+-->
