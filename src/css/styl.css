@@ -6,7 +6,7 @@ footer,.navbar-inverse, ul.dropdown-menu{
 	background: url("../img/tlo.png");
 	background-repeat: repeat-x repeat-y;}
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 20px;
 	background: url("../img/gl_tlo.png");
 	background-repeat: repeat-x repeat-y;
@@ -35,7 +35,7 @@ img.eko{
 	float: right;
 	margin-top: 10px;}
 .nav>li>a{
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 0;
 	margin-bottom: -5px;}
 .nav>li>a, ul.dropdown-menu>li>a{ 
@@ -49,7 +49,7 @@ img.eko{
 	border-top: black;}
 img.logo{ 
 	padding-top: 5px;
-	height: 70px;}
+	height: 60px;}
 #mzs{
 	margin-bottom: 0;}
 #face{
@@ -139,8 +139,7 @@ td{
 width: 20%;
 }
 iframe{
-margin-top: 15px;
-margin-bottom: -15px;
+margin-top: 10px;
 vertical-align: middle;
 }
 
