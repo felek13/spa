@@ -1,8 +1,5 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
-* {
-	font-family: Futura, "Gill Sans", "Century Gothic", "Dejavu Sans", "Trebuchet MS", sans-serif ;
-}
-footer,.navbar-inverse, ul.dropdown-menu{
+.btn-primary,footer,.navbar-inverse, ul.dropdown-menu{
 	background: url("../img/tlo.png");
 	background-repeat: repeat-x repeat-y;}
 body {
@@ -23,11 +20,6 @@ footer{
 	background: url("../img/slajd1.png") no-repeat center center;
 	background-size: cover;
 	margin-bottom: 0px;
-}
-#facebook{
-	border:none;
-	margin-right: 5%;
-	padding: 0;
 }
 li span{
 	margin-bottom: 10px;}
@@ -94,15 +86,6 @@ p{
 img#zapraszamy{
 	float: right;
 }
-.caret {
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-top: 8px solid white;}
-.caret.act
-{
-	border-top: 8px solid black;
-}
-
 address{
 	margin-top: 1em;
 	font-size: 1.5em;
@@ -141,5 +124,30 @@ width: 20%;
 iframe{
 margin-top: 10px;
 vertical-align: middle;
+}
+#mc_embed_signup{
+	background:transparent;
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+}
+.well{
+	background: transparent;
+  border: none;
+}
+.btn{
+	background: url("../img/tlo.png");
+	background-repeat: repeat-x repeat-y;
+	border: none;
+	margin-top: 4px;
+}
+.email{
+border: none;	
+}
+legend, #none-border{
+border: none;
+}
+#none-border{
+margin: 0 10px 0 0px; 
+padding: 0;
 }
 
