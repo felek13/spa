@@ -21,63 +21,95 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
+<div id="fb-root" class="like"></div> <script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";
+				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
 			<div class="navbar-header">
 				<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
+					<span class="sr-only">Toggle navigation</span> 
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<button type="button"  id="facebook" class="navbar-toggle"> 
-					<img  class="img-responsive" src="img/facebook.png" alt="facebook" > 
-				</button>
-				<a  id="logo_tog" href="index.html">
-					<img  class="logo" src="img/logo_m.png" alt="logo" > 
+				<div class="navbar-toggle" id="none-border" >
+					<iframe id="face_tog" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsparadom&amp;width=60&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+				</div>
+				<a href="index.html">
+					<img  class="logo" src="img/logo_m.png" alt="logo" >
 				</a>
 			</div> <!--navbar-header-->
-			<div class="navbar-collapse collapse">
-				<ul class="nav nav-justified">
-					<li><a href="index.html">
-							<img  id="ikona"  src="img/gl_home.png" alt="glowna strona">
-							</br>HOME</a></li>
-          <!--
-					  <li><a href="aktualności.html">
-					  		<img  id="ikona"  src="img/gl_akt.png" alt="aktualności">
-					  		</br>AKTUALNOŚCI</a></li>
-          -->
-					<li><a class="act" href="onas.html">
-							<img id="ikona" src="img/gl_onas_a.png" alt="O nas">
-							</br>O NAS</a></li>
-					<li class="dropdown">
-						<a href="oferta.html" class="dropdown-toggle" data-toggle="dropdown">
-							<img id="ikona" src="img/gl_oferta.png" alt="Oferta">
-							</br>OFERTA</br><span  class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li>
-							<li class="divider"></li>
-							<li><a href="oczy.html">Oczy</a></li>
-							<li class="divider"></li>
-							<li><a href="twarz.html">Twarz</a></li>
-							<li class="divider"></li>
-							<li><a href="cialo.html">Ciało</a></li>
-							<li class="divider"></li>
-							<li><a href="cennik.html">Cennik</a></li>
-						</ul></li>
-					  <li><a href="galeria.html">
-					  		<img id="ikona" src="img/gl_gal.png" alt="Galeria">
-					  		</br>GALERIA</a></li>
-          <!--
-					  <li><a  href="newsletter.html">
-					  		<img id="ikona" src="img/gl_news.png" alt="Newsletter">
-					  		</br>NEWSLETTER</a></li>
-          -->
-					<li><a  href="kontakt.html">
-							<img id="ikona" src="img/gl_kont.png" alt="Kontakt">
-							</br> KONTAKT</a></li>
-				</ul>
-			</div><!--/.navbar-collapse -->
-		</div><!--container-->
-	</div><!--role navigation-->
+
+		<div class="navbar-collapse collapse">
+			<ul class="nav nav-justified">
+				<li>
+					<a href="index.html">
+						<img  id="ikona"  src="img/gl_home.png" alt="glowna strona">
+						</br>HOME
+					</a>
+				</li>
+				<!--
+				<li>
+					<a href="aktualności.html"> 
+						<img  id="ikona"  src="img/gl_akt.png" alt="aktualności"> 
+						</br>AKTUALNOŚCI
+					</a>
+				</li> 
+				-->
+				
+				<li>
+					<a class="act" href="onas.html">
+						<img id="ikona" src="img/gl_onas_a.png" alt="O nas">
+						</br> O NAS
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<img id="ikona" src="img/gl_oferta.png" alt="Oferta"></br>OFERTA
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="kbs.html">Komputerowe Badanie Skóry</a></li> <li class="divider"></li>
+						<li><a href="oczy.html">Oczy</a></li><li class="divider"></li>
+						<li><a href="twarz.html">Twarz</a></li><li class="divider"></li>
+						<li><a href="cialo.html">Ciało</a></li><li class="divider"></li>
+						<li><a href="manicure.html">Manicure i Pedicure</a></li> <li class="divider"></li>
+						<li><a href="masaz.html">Masaż</a></li> <li class="divider"></li>
+						<li><a href="depilacja.html">Depilacja</a></li> 
+					</ul>
+				</li>
+				<li>
+					<a href="galeria.html">
+						<img id="ikona" src="img/gl_gal.png" alt="Galeria"></br>GALERIA
+					</a>
+				</li>
+				<!--
+					<li>
+						<a  href="newsletter.html">
+							<img id="ikona" src="img/gl_news.png" alt="Newsletter"></br>NEWSLETTER
+						</a>
+					</li>
+				-->
+				
+				<li>
+					<a href="kontakt.html">
+						<img id="ikona" src="img/gl_kont.png" alt="Kontakt"></br>KONTAKT
+					</a>
+				</li>
+				<li>
+					<a href="cennik.html">
+						<span id="glyf" class="glyphicon glyphicon-usd"></span></br>CENNIK
+					</a>
+				</li>
+				<li>
+				<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsparadom&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+				</li>
+			</ul>
+		</div><!--/.navbar-collapse --> 
+	</div><!--container-->
+</div><!--role navigation-->
 
 	<div class="jumbotron hidden-xs" id="banner"> 
 						<a id="fcb" href="https://www.facebook.com/sparadom?fref=ts">	</a>
